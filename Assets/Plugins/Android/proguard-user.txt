@@ -1,0 +1,14 @@
+# Дополнительные правила R8 для Match & Flame (M-25).
+# Работают только при Player Settings → Android → Publishing Settings →
+# Minify: Release + Custom Proguard File.
+#
+# Google Mobile Ads, UMP и их Unity-мосты приносят правила сами
+# (googlemobileads-unity.aar → proguard.txt), Unity — proguard-unity.txt,
+# Yandex Mobile Ads и AppMetrica из Maven — consumer-правила в своих AAR.
+
+# Unity-обёртка Yandex Mobile Ads (yandex-ads-unity-plugin.aar) правил не содержит,
+# а её классы вызываются из C# через JNI по имени — переименовывать нельзя.
+-keep class com.yandex.mobile.ads.unity.** { *; }
+
+# Сохраняем номера строк, чтобы стектрейсы в Play Console читались с mapping.txt
+-keepattributes SourceFile,LineNumberTable

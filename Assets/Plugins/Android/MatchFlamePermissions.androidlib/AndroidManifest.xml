@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Разрешения игры, которые не добавляют сами Unity и SDK. Только VIBRATE: короткий отклик (Haptics.cs). -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.aixdev.matchandflame.permissions">
+  <uses-permission android:name="android.permission.VIBRATE" />
+</manifest>
