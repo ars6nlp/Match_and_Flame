@@ -1,0 +1,615 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a4c21313d1a81b489f01cb5525227f7, type: 3}
+  m_Name: DailyLevelPool
+  m_EditorClassIdentifier: Assembly-CSharp::DailyLevelPool
+  entries:
+  - prefab: Daily_000
+    tier: 0
+    tags: 24
+    solutionCenter: {x: 1.8908725, y: -1.6473596}
+    solutionRot: 0
+    solutionPhase: 0
+    matches: 8
+    window: 0
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_001
+    tier: 0
+    tags: 24
+    solutionCenter: {x: -2.0158722, y: 1.0223595}
+    solutionRot: 180
+    solutionPhase: 0
+    matches: 8
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_002
+    tier: 0
+    tags: 24
+    solutionCenter: {x: -0.5223596, y: -0.51587236}
+    solutionRot: 270
+    solutionPhase: 0
+    matches: 6
+    window: 0
+    randomWinShare: 0.1
+    enabled: 1
+  - prefab: Daily_003
+    tier: 0
+    tags: 24
+    solutionCenter: {x: 0.8908724, y: -1.5223596}
+    solutionRot: 0
+    solutionPhase: 0
+    matches: 6
+    window: 0
+    randomWinShare: 0.1
+    enabled: 1
+  - prefab: Daily_004
+    tier: 0
+    tags: 24
+    solutionCenter: {x: 0.89735985, y: 0.39087236}
+    solutionRot: 90
+    solutionPhase: 0
+    matches: 7
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_005
+    tier: 0
+    tags: 24
+    solutionCenter: {x: 1.1408725, y: -1.3973596}
+    solutionRot: 0
+    solutionPhase: 0
+    matches: 6
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_006
+    tier: 0
+    tags: 24
+    solutionCenter: {x: -2.3908722, y: 0.6473595}
+    solutionRot: 180
+    solutionPhase: 0
+    matches: 6
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_007
+    tier: 0
+    tags: 24
+    solutionCenter: {x: -1.0223596, y: -3.3908725}
+    solutionRot: 270
+    solutionPhase: 0
+    matches: 6
+    window: 0
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_008
+    tier: 0
+    tags: 24
+    solutionCenter: {x: -2.8908725, y: -0.22764054}
+    solutionRot: 180
+    solutionPhase: 0
+    matches: 7
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_009
+    tier: 0
+    tags: 24
+    solutionCenter: {x: 1.1473598, y: -0.23412776}
+    solutionRot: 90
+    solutionPhase: 0
+    matches: 6
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_010
+    tier: 0
+    tags: 24
+    solutionCenter: {x: -0.5223596, y: -0.26587236}
+    solutionRot: 270
+    solutionPhase: 0
+    matches: 7
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_011
+    tier: 0
+    tags: 24
+    solutionCenter: {x: -0.47764018, y: 3.2658725}
+    solutionRot: 90
+    solutionPhase: 0
+    matches: 9
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_012
+    tier: 0
+    tags: 24
+    solutionCenter: {x: 0.022359788, y: 1.2658722}
+    solutionRot: 90
+    solutionPhase: 0
+    matches: 6
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_013
+    tier: 0
+    tags: 24
+    solutionCenter: {x: -3.0158725, y: -0.8526405}
+    solutionRot: 180
+    solutionPhase: 0
+    matches: 7
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_014
+    tier: 0
+    tags: 24
+    solutionCenter: {x: 2.0158725, y: -0.2723596}
+    solutionRot: 0
+    solutionPhase: 0
+    matches: 7
+    window: 0
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_015
+    tier: 0
+    tags: 24
+    solutionCenter: {x: -1.0223596, y: -1.2658722}
+    solutionRot: 270
+    solutionPhase: 0
+    matches: 7
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_016
+    tier: 0
+    tags: 24
+    solutionCenter: {x: -3.1408725, y: 1.0223595}
+    solutionRot: 180
+    solutionPhase: 0
+    matches: 6
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_017
+    tier: 0
+    tags: 24
+    solutionCenter: {x: 1.6408725, y: -0.02235961}
+    solutionRot: 0
+    solutionPhase: 0
+    matches: 7
+    window: 0
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_018
+    tier: 1
+    tags: 24
+    solutionCenter: {x: 1.1473598, y: 1.6408722}
+    solutionRot: 90
+    solutionPhase: 0
+    matches: 10
+    window: 0
+    randomWinShare: 0.1
+    enabled: 1
+  - prefab: Daily_019
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -1.5158722, y: 1.3973595}
+    solutionRot: 180
+    solutionPhase: 0
+    matches: 10
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_020
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 8
+    window: 3.2
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_021
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 8
+    window: 3.2
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_022
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 8
+    window: 3.2
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_023
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 7
+    window: 3.2
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_024
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 8
+    window: 3.2
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_025
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 9
+    window: 3.2
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_026
+    tier: 2
+    tags: 57
+    solutionCenter: {x: -2.0158722, y: 0.02235943}
+    solutionRot: 180
+    solutionPhase: 1.4
+    matches: 9
+    window: 2
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_027
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 7
+    window: 3.2
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_028
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 8
+    window: 3.2
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_029
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 7
+    window: 3.2
+    randomWinShare: 0.1
+    enabled: 1
+  - prefab: Daily_030
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 8
+    window: 3.2
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_031
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 7
+    window: 3.2
+    randomWinShare: 0.1
+    enabled: 1
+  - prefab: Daily_032
+    tier: 2
+    tags: 57
+    solutionCenter: {x: 0.64735985, y: 1.8908724}
+    solutionRot: 90
+    solutionPhase: 0.6
+    matches: 7
+    window: 2
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_033
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 7
+    window: 3.2
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_034
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 7
+    window: 3.2
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_035
+    tier: 2
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 8
+    window: 3.2
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_036
+    tier: 3
+    tags: 59
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3
+    matches: 7
+    window: 2.2
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_037
+    tier: 3
+    tags: 59
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3
+    matches: 7
+    window: 2.2
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_038
+    tier: 3
+    tags: 58
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3.2
+    matches: 8
+    window: 3.2
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_039
+    tier: 3
+    tags: 59
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3
+    matches: 7
+    window: 2.2
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_040
+    tier: 3
+    tags: 59
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3
+    matches: 7
+    window: 2.2
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_041
+    tier: 3
+    tags: 59
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3
+    matches: 7
+    window: 2.2
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_042
+    tier: 3
+    tags: 59
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3
+    matches: 7
+    window: 2.2
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_043
+    tier: 3
+    tags: 59
+    solutionCenter: {x: 1.0223598, y: 0.64087236}
+    solutionRot: 90
+    solutionPhase: 3
+    matches: 7
+    window: 2.2
+    randomWinShare: 0
+    enabled: 1
+  - prefab: Daily_044
+    tier: 1
+    tags: 24
+    solutionCenter: {x: 1.1473598, y: 0.26587236}
+    solutionRot: 90
+    solutionPhase: 0
+    matches: 8
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_045
+    tier: 1
+    tags: 24
+    solutionCenter: {x: 1.7658725, y: -1.6473596}
+    solutionRot: 0
+    solutionPhase: 0
+    matches: 9
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_046
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -1.1473596, y: -3.0158725}
+    solutionRot: 270
+    solutionPhase: 0
+    matches: 8
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_047
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -1.1473596, y: -2.3908722}
+    solutionRot: 270
+    solutionPhase: 0
+    matches: 8
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_048
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -1.2658722, y: 0.3973595}
+    solutionRot: 180
+    solutionPhase: 0
+    matches: 9
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_049
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -0.02235955, y: -3.7658725}
+    solutionRot: 270
+    solutionPhase: 0
+    matches: 8
+    window: 0
+    randomWinShare: 0.1
+    enabled: 1
+  - prefab: Daily_050
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -0.14735955, y: -3.2658725}
+    solutionRot: 270
+    solutionPhase: 0
+    matches: 8
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_051
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -1.5158722, y: 1.0223595}
+    solutionRot: 180
+    solutionPhase: 0
+    matches: 9
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_052
+    tier: 1
+    tags: 24
+    solutionCenter: {x: 0.5158725, y: -1.2723596}
+    solutionRot: 0
+    solutionPhase: 0
+    matches: 9
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_053
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -1.2723596, y: -3.2658725}
+    solutionRot: 270
+    solutionPhase: 0
+    matches: 9
+    window: 0
+    randomWinShare: 0.06666667
+    enabled: 1
+  - prefab: Daily_054
+    tier: 1
+    tags: 24
+    solutionCenter: {x: 0.52235985, y: 2.1408722}
+    solutionRot: 90
+    solutionPhase: 0
+    matches: 8
+    window: 0
+    randomWinShare: 0.1
+    enabled: 1
+  - prefab: Daily_055
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -0.51587236, y: -0.47764054}
+    solutionRot: 180
+    solutionPhase: 0
+    matches: 9
+    window: 0
+    randomWinShare: 0.1
+    enabled: 1
+  - prefab: Daily_056
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -2.8908725, y: 0.14735943}
+    solutionRot: 180
+    solutionPhase: 0
+    matches: 8
+    window: 0
+    randomWinShare: 0.1
+    enabled: 1
+  - prefab: Daily_057
+    tier: 1
+    tags: 24
+    solutionCenter: {x: 2.3908725, y: -1.2723596}
+    solutionRot: 0
+    solutionPhase: 0
+    matches: 9
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_058
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -2.1408722, y: 1.0223595}
+    solutionRot: 180
+    solutionPhase: 0
+    matches: 8
+    window: 0
+    randomWinShare: 0.033333335
+    enabled: 1
+  - prefab: Daily_059
+    tier: 1
+    tags: 24
+    solutionCenter: {x: -0.8973596, y: -0.39087236}
+    solutionRot: 270
+    solutionPhase: 0
+    matches: 9
+    window: 0
+    randomWinShare: 0.1
+    enabled: 1

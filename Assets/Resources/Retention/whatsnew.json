@@ -1,0 +1,21 @@
+{
+  "entries": [
+    {
+      "version": "4.1",
+      "titleRU": "Что нового: Очаг",
+      "titleEN": "What's new: the Hearth",
+      "linesRU": [
+        "Огонёк переехал в очаг и растёт от твоих головоломок.",
+        "Каждый день — новый уровень дня и три задания.",
+        "Комната очага, облики огонька и коллекция коробков.",
+        "Главы на экране выбора уровня и праздники в календаре."
+      ],
+      "linesEN": [
+        "Your flame moved into the hearth and grows with your puzzles.",
+        "A new daily level and three tasks every day.",
+        "A hearth room, flame outfits and a matchbox collection.",
+        "Chapters on the level screen and holidays in the calendar."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "events": [
+    { "id": "newyear",  "start": "12-25", "end": "01-07", "nameRU": "Новый год", "nameEN": "New Year", "textRU": "Огонёк в колпаке и новогодний коробок за 3 уровня дня.", "textEN": "A winter hat for your flame and a New Year box for 3 daily levels.", "tint": "#9FD8FF", "outfit": 7, "box": 24, "dailyTarget": 3 },
+    { "id": "hearts",   "start": "02-13", "end": "02-15", "nameRU": "Тёплые сердца", "nameEN": "Warm Hearts", "textRU": "Сердечко для огонька за 3 уровня дня.", "textEN": "A heart for your flame for 3 daily levels.", "tint": "#FF8FA8", "outfit": 8, "box": 25, "dailyTarget": 3 },
+    { "id": "nauryz",   "start": "03-21", "end": "03-23", "nameRU": "Наурыз", "nameEN": "Nauryz", "textRU": "Тюбетейка и коробок Наурыза за 3 уровня дня.", "textEN": "A tubeteika and a Nauryz box for 3 daily levels.", "tint": "#7FE0C8", "outfit": 9, "box": 26, "dailyTarget": 3 },
+    { "id": "spring",   "start": "05-01", "end": "05-05", "nameRU": "Весна", "nameEN": "Spring", "textRU": "Цветочный венок за 3 уровня дня.", "textEN": "A flower wreath for 3 daily levels.", "tint": "#B8F08A", "outfit": 10, "box": 27, "dailyTarget": 3 },
+    { "id": "summer",   "start": "06-20", "end": "07-10", "nameRU": "Лето", "nameEN": "Summer", "textRU": "Солнечные очки за 3 уровня дня.", "textEN": "Sunglasses for 3 daily levels.", "tint": "#FFE07A", "outfit": 11, "box": 28, "dailyTarget": 3 },
+    { "id": "fireday",  "start": "08-15", "end": "08-17", "nameRU": "День огня", "nameEN": "Fire Day", "textRU": "Перо феникса за 3 уровня дня.", "textEN": "A phoenix feather for 3 daily levels.", "tint": "#FF8A50", "outfit": 12, "box": 29, "dailyTarget": 3 },
+    { "id": "leaffall", "start": "09-20", "end": "09-25", "nameRU": "Листопад", "nameEN": "Leaf Fall", "textRU": "Осенний венок за 3 уровня дня.", "textEN": "A leaf crown for 3 daily levels.", "tint": "#F0A050", "outfit": 13, "box": 30, "dailyTarget": 3 },
+    { "id": "halloween","start": "10-25", "end": "11-02", "nameRU": "Хэллоуин", "nameEN": "Halloween", "textRU": "Шляпа-тыква и тыквенный коробок за 3 уровня дня.", "textEN": "A pumpkin hat and a pumpkin box for 3 daily levels.", "tint": "#C890FF", "outfit": 14, "box": 31, "dailyTarget": 3 }
+  ]
+}

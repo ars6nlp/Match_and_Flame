@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ee12592c89ad747a304c5179cd109d, type: 3}
+  m_Name: HearthVisualSettings
+  m_EditorClassIdentifier: Assembly-CSharp::HearthVisualSettings
+  flameNameRU: "\u0418\u0441\u043A\u043E\u0440\u043A\u0430"
+  flameNameEN: Sparky
+  sceneLight: 1
+  timeOfDay: 1
+  seasonalDecor: 1
+  itemLife: 1
+  decorAppear: 1
+  sceneBreathing: 1
+  emotions: 1
+  lookAround: 1
+  tapReactions: 1
+  holdWarm: 1
+  dragFeed: 1
+  lines: 1
+  greeting: 1
+  idleActions: 1
+  sounds: 1
+  haptics: 1
+  onboarding: 1
+  idleSeconds: 8
+  tapCooldown: 0.35
+  lineCooldown: 2.5
+  holdSeconds: 0.5
+  feedChunk: 25
+  greetSeconds: 4
+  bubbleSeconds: 3.2
+  breathe: 0.03
+  sway: 2.5
+  morningSky: {r: 1, g: 0.78, b: 0.6, a: 1}
+  daySky: {r: 0.55, g: 0.8, b: 1, a: 1}
+  eveningSky: {r: 0.98, g: 0.55, b: 0.4, a: 1}
+  nightSky: {r: 0.12, g: 0.15, b: 0.35, a: 1}
+  morningRoom: {r: 1, g: 0.95, b: 0.9, a: 1}
+  dayRoom: {r: 1, g: 1, b: 1, a: 1}
+  eveningRoom: {r: 0.95, g: 0.82, b: 0.72, a: 1}
+  nightRoom: {r: 0.7, g: 0.62, b: 0.62, a: 1}
+  streakLightBonus: 0.35
+  ink: {r: 0.22745098, g: 0.11764706, b: 0.0627451, a: 1}
+  inkSoft: {r: 0.43137255, g: 0.2509804, b: 0.14901961, a: 1}
+  heading: {r: 0.5411765, g: 0.24705882, b: 0.10980392, a: 1}
+  amber: {r: 0.96862745, g: 0.5882353, b: 0.18039216, a: 1}
+  mint: {r: 0.12156863, g: 0.41960785, b: 0.27058825, a: 1}
+  mintTint: {r: 0.87058824, g: 0.96862745, b: 0.9019608, a: 1}
+  lowRed: {r: 0.57254905, g: 0.17254902, b: 0.1254902, a: 1}
+  accentTint: {r: 1, g: 0.9254902, b: 0.76862746, a: 1}
+  dim: {r: 0.16, g: 0.08, b: 0.04, a: 0.72}
+  mutedTint: {r: 0.9098039, g: 0.87058824, b: 0.8235294, a: 1}
+  titleSize: 64
+  subtitleSize: 46
+  bodySize: 42
+  captionSize: 38
+  minAutoSize: 37
+  windowWidth: 1000
+  windowMaxHeight: 1460
+  buttonHeight: 148
+  gap: 24
+  padding: 36
+  uiAnimations: 1
+  appearSeconds: 0.22
+  barSeconds: 0.45
+  flameWidth:
+  - 0.095
+  - 0.117
+  - 0.136
+  - 0.153
+  - 0.167
+  - 0.178
+  - 0.187
+  - 0.195
+  flameAspect:
+  - 1.05
+  - 1.14
+  - 1.2
+  - 1.22
+  - 1.32
+  - 1.28
+  - 1.25
+  - 1.22
+  flameTongues: 0100000002000000030000000300000004000000040000000500000005000000
+  flameSparks:
+  - 0
+  - 0.6
+  - 1
+  - 1.5
+  - 2
+  - 2.5
+  - 3
+  - 3.5
+  flameAccessory: 0000000000000000000000000100000001000000020000000300000004000000
+  popupFlameUnit: 1700
+  lineOuter:
+  - {r: 0.20392157, g: 0.5019608, b: 1, a: 1}
+  - {r: 1, g: 0.32941177, b: 0.11764706, a: 1}
+  - {r: 0.9411765, g: 0.20392157, b: 0.3372549, a: 1}
+  lineMid:
+  - {r: 0.3764706, g: 0.74509805, b: 1, a: 1}
+  - {r: 1, g: 0.6117647, b: 0.18039216, a: 1}
+  - {r: 1, g: 0.47058824, b: 0.54901963, a: 1}
+  lineCore:
+  - {r: 0.8627451, g: 0.9647059, b: 1, a: 1}
+  - {r: 1, g: 0.9098039, b: 0.5882353, a: 1}
+  - {r: 1, g: 0.8862745, b: 0.9098039, a: 1}
+  lineGlow:
+  - {r: 0.3529412, g: 0.6666667, b: 1, a: 1}
+  - {r: 1, g: 0.54901963, b: 0.19607843, a: 1}
+  - {r: 1, g: 0.3529412, b: 0.47058824, a: 1}
+  colorBlendSeconds: 0.6
+  flameGlow: 1
+  flameShadow: 1
+  flameReflection: 1
+  flameSparksOn: 1
+  flameTongueMotion: 1
+  flameAccessories: 1
+  simplifyOnLowFx: 1
+  tapSound: {fileID: 8300000, guid: f0415dc831df9244a9529163eac96833, type: 3}
+  feedSound: {fileID: 8300000, guid: d2d56f0233294d94e8c51e7a2e098701, type: 3}
+  crackleSound: {fileID: 8300000, guid: b6d42e654d0ae9744ae0b12f2bb3cb5f, type: 3}
+  rewardSound: {fileID: 8300000, guid: 34c88044d81aae1418436e73619b481b, type: 3}
+  tapPitch: {x: 1.1, y: 1.4}
+  feedPitch: {x: 0.9, y: 1.1}
+  volume: 0.6
+  flameLines:
+  - kind: 0
+    ru: "\u0414\u043E\u0431\u0440\u043E\u0435 \u0443\u0442\u0440\u043E! \u042F \u0443\u0436\u0435
+      \u0440\u0430\u0437\u043E\u0433\u0440\u0435\u043B\u0441\u044F."
+    en: Good morning! I'm all warmed up.
+  - kind: 0
+    ru: "\u0423\u0442\u0440\u043E! \u0421\u0430\u043C\u043E\u0435 \u0432\u0440\u0435\u043C\u044F
+      \u0434\u043B\u044F \u043E\u0434\u043D\u043E\u0439 \u0433\u043E\u043B\u043E\u0432\u043E\u043B\u043E\u043C\u043A\u0438."
+    en: Morning! Perfect time for one puzzle.
+  - kind: 0
+    ru: "\u041E, \u0442\u044B \u043F\u0440\u0438\u0448\u0451\u043B! \u0410 \u044F
+      \u043A\u0430\u043A \u0440\u0430\u0437 \u043F\u0440\u043E\u0441\u043D\u0443\u043B\u0441\u044F."
+    en: Oh, you're here! I just woke up.
+  - kind: 1
+    ru: "\u041F\u0440\u0438\u0432\u0435\u0442! \u041A\u0430\u043C\u0438\u043D \u0442\u0451\u043F\u043B\u044B\u0439,
+      \u0441\u0430\u0434\u0438\u0441\u044C \u043F\u043E\u0431\u043B\u0438\u0436\u0435."
+    en: Hi! The hearth is warm, come closer.
+  - kind: 1
+    ru: "\u041F\u0440\u0438\u0432\u0435\u0442-\u043F\u0440\u0438\u0432\u0435\u0442!
+      \u042F \u0441\u043A\u0443\u0447\u0430\u043B. \u041D\u0435\u043C\u043D\u043E\u0436\u043A\u043E."
+    en: Hello hello! I missed you. A little.
+  - kind: 1
+    ru: "\u0423\u0440\u0430, \u0433\u043E\u0441\u0442\u0438! \u041D\u0443, \u0442\u043E\u0447\u043D\u0435\u0435,
+      \u0442\u044B."
+    en: Yay, a guest! Well, you.
+  - kind: 2
+    ru: "\u0414\u043E\u0431\u0440\u044B\u0439 \u0432\u0435\u0447\u0435\u0440! \u0421\u0430\u043C\u043E\u0435
+      \u0443\u044E\u0442\u043D\u043E\u0435 \u0432\u0440\u0435\u043C\u044F."
+    en: Good evening! The coziest time of day.
+  - kind: 2
+    ru: "\u0412\u0435\u0447\u0435\u0440 \u2014 \u0432\u0440\u0435\u043C\u044F \u0447\u0430\u044F
+      \u0438 \u0441\u043F\u0438\u0447\u0435\u043A."
+    en: 'Evening: time for tea and matches.'
+  - kind: 3
+    ru: "\u0422\u0441\u0441\u2026 \u043D\u043E\u0447\u044C. \u042F \u0442\u0438\u0445\u043E\u043D\u044C\u043A\u043E
+      \u043F\u043E\u0442\u0440\u0435\u0441\u043A\u0438\u0432\u0430\u044E."
+    en: "Shh\u2026 it's night. I'm crackling quietly."
+  - kind: 3
+    ru: "\u041D\u0435 \u0441\u043F\u0438\u0442\u0441\u044F? \u041C\u043D\u0435 \u0442\u043E\u0436\u0435.
+      \u0414\u0430\u0432\u0430\u0439 \u043F\u043E\u0441\u0438\u0434\u0438\u043C."
+    en: Can't sleep? Me neither. Let's sit a bit.
+  - kind: 4
+    ru: "\u0421 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0435\u043D\u0438\u0435\u043C!
+      \u042F \u0431\u0435\u0440\u0451\u0433 \u0434\u043B\u044F \u0442\u0435\u0431\u044F
+      \u0442\u0435\u043F\u043B\u043E."
+    en: Welcome back! I kept the warmth for you.
+  - kind: 4
+    ru: "\u0422\u044B \u0432\u0435\u0440\u043D\u0443\u043B\u0441\u044F! \u041D\u0430\u0447\u043D\u0451\u043C
+      \u043D\u043E\u0432\u0443\u044E \u0441\u0435\u0440\u0438\u044E \u2014 \u0449\u0438\u0442
+      \u043F\u0440\u0438 \u043D\u0430\u0441."
+    en: You're back! Let's start a new streak, the shield is with us.
+  - kind: 5
+    ru: "\u0423\u0436\u0435 \u0441\u0442\u043E\u043B\u044C\u043A\u043E \u0434\u043D\u0435\u0439
+      \u0432\u043C\u0435\u0441\u0442\u0435! \u041C\u043D\u0435 \u0441\u0432\u0435\u0442\u043B\u0435\u0435."
+    en: So many days together! I'm glowing.
+  - kind: 5
+    ru: "\u0421\u0435\u0440\u0438\u044F \u0434\u0435\u0440\u0436\u0438\u0442\u0441\u044F!
+      \u042F \u0433\u043E\u0440\u0436\u0443\u0441\u044C \u043D\u0430\u043C\u0438."
+    en: The streak holds! I'm proud of us.
+  - kind: 6
+    ru: "\u0425\u0438-\u0445\u0438, \u0449\u0435\u043A\u043E\u0442\u043D\u043E!"
+    en: Hee-hee, that tickles!
+  - kind: 6
+    ru: "\u0411\u0443! \u0418\u0441\u043F\u0443\u0433\u0430\u043B\u0441\u044F? \u042F
+      \u0442\u043E\u0436\u0435."
+    en: Boo! Scared? Me too.
+  - kind: 6
+    ru: "\u041F\u0440\u0438\u0432\u0435\u0442, \u043F\u0430\u043B\u0435\u0446!"
+    en: Hello, finger!
+  - kind: 6
+    ru: "\u042F \u0442\u0451\u043F\u043B\u044B\u0439, \u043D\u043E \u043D\u0435 \u043A\u0443\u0441\u0430\u044E\u0441\u044C."
+    en: I'm warm, but I don't bite.
+  - kind: 6
+    ru: "\u0415\u0449\u0451 \u0440\u0430\u0437\u043E\u043A \u043F\u043E\u0434\u043F\u0440\u044B\u0433\u043D\u0443\u0442\u044C?"
+    en: Jump once more?
+  - kind: 7
+    ru: "\u041E\u0439-\u043E\u0439, \u0433\u043E\u043B\u043E\u0432\u0430 \u043A\u0440\u0443\u0436\u0438\u0442\u0441\u044F!"
+    en: Whoa, I'm getting dizzy!
+  - kind: 7
+    ru: "\u0414\u0430\u0439 \u043E\u0442\u0434\u044B\u0448\u0430\u0442\u044C\u0441\u044F\u2026
+      \u0442\u043E \u0435\u0441\u0442\u044C \u043E\u0442\u0433\u043E\u0440\u0435\u0442\u044C\u0441\u044F."
+    en: "Let me catch my breath\u2026 or my flame."
+  - kind: 8
+    ru: "\u0413\u0440\u0435\u0439 \u043B\u0430\u0434\u043E\u0448\u043A\u0438, \u044F
+      \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432."
+    en: Warm your hands, I don't mind.
+  - kind: 8
+    ru: "\u041C\u043C\u043C, \u043A\u0430\u043A \u0443\u044E\u0442\u043D\u043E."
+    en: Mmm, so cozy.
+  - kind: 9
+    ru: "\u041D\u044F\u043C! \u0412\u043A\u0443\u0441\u043D\u044B\u0439 \u0443\u0433\u043E\u043B\u0451\u043A."
+    en: Yum! Tasty ember.
+  - kind: 9
+    ru: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E! \u0427\u0443\u0432\u0441\u0442\u0432\u0443\u044E,
+      \u0440\u0430\u0441\u0442\u0443."
+    en: Thanks! I can feel myself growing.
+  - kind: 9
+    ru: "\u0425\u0440\u0443\u043C-\u0445\u0440\u0443\u043C. \u0415\u0449\u0451?"
+    en: Crunch crunch. More?
+  - kind: 9
+    ru: "\u042D\u0442\u043E\u0442 \u043F\u0430\u0445\u043D\u0435\u0442 \u043B\u0435\u0441\u043E\u043C!"
+    en: This one smells like a forest!
+  - kind: 10
+    ru: "\u0423\u0433\u043E\u043B\u044C\u043A\u0438 \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0438\u0441\u044C
+      \u2014 \u0438\u0445 \u0434\u0430\u044E\u0442 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+      \u0434\u043D\u044F \u0438 \u0437\u0430\u0434\u0430\u043D\u0438\u044F."
+    en: "Out of embers \u2014 the daily level and tasks give more."
+  - kind: 11
+    ru: "\u0421\u043C\u043E\u0442\u0440\u0438! \u042F \u0441\u0442\u0430\u043B \u0431\u043E\u043B\u044C\u0448\u0435!"
+    en: Look! I got bigger!
+  - kind: 11
+    ru: "\u0423\u0445 \u0442\u044B, \u043D\u043E\u0432\u044B\u0435 \u0438\u0441\u043A\u0440\u044B!"
+    en: Wow, new sparks!
+  - kind: 12
+    ru: "\u0410\u0430\u0430-\u0443\u0444\u2026 \u041A\u0445\u043C. \u042D\u0442\u043E
+      \u044F \u043D\u0435 \u0437\u0435\u0432\u0430\u043B."
+    en: "Yaaawn\u2026 Ahem. That wasn't a yawn."
+  - kind: 12
+    ru: "\u0418\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E, \u0447\u0442\u043E
+      \u0432 \u0442\u043E\u043C \u043A\u043E\u0440\u043E\u0431\u043A\u0435\u2026"
+    en: "I wonder what's in that box\u2026"
+  - kind: 12
+    ru: "\u0422\u0438\u043A-\u0442\u0430\u043A, \u0447\u0430\u0441\u044B \u0441\u0447\u0438\u0442\u0430\u044E\u0442
+      \u0443\u0433\u043E\u043B\u044C\u043A\u0438."
+    en: Tick-tock, the clock counts embers.
+  - kind: 12
+    ru: "\u042F \u0441\u043E\u0447\u0438\u043D\u044F\u044E \u043F\u0435\u0441\u043D\u044E
+      \u043F\u0440\u043E \u0441\u043F\u0438\u0447\u043A\u0438."
+    en: I'm writing a song about matches.
+  - kind: 12
+    ru: "\u041F\u0444! \u0418\u0441\u043A\u043E\u0440\u043A\u0430 \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E
+      \u0432\u044B\u043B\u0435\u0442\u0435\u043B\u0430."
+    en: Pff! A spark slipped out.
+  - kind: 13
+    ru: "\u041F\u0440\u043E\u0439\u0434\u0438 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+      \u0434\u043D\u044F \u2014 \u043E\u043D \u0441\u0435\u0433\u043E\u0434\u043D\u044F
+      \u043D\u043E\u0432\u044B\u0439."
+    en: "Try the daily level \u2014 it's new today."
+  - kind: 13
+    ru: "\u041F\u0435\u0440\u0435\u0442\u0430\u0449\u0438 \u0443\u0433\u043E\u043B\u0451\u043A
+      \u043A\u043E \u043C\u043D\u0435 \u2014 \u0438 \u044F \u0432\u044B\u0440\u0430\u0441\u0442\u0443."
+    en: Drag an ember to me and I'll grow.
+  - kind: 13
+    ru: "\u0417\u0430\u0434\u0430\u043D\u0438\u044F \u0434\u043D\u044F \u0434\u0430\u044E\u0442
+      \u0443\u0433\u043E\u043B\u044C\u043A\u0438 \u0438 \u0430\u0440\u043E\u043C\u0430\u0442
+      \u0434\u0440\u043E\u0432."
+    en: Daily tasks give embers and a wood aroma.
+  - kind: 13
+    ru: "\u041E\u0442 \u0434\u0440\u043E\u0432 \u0437\u0430\u0432\u0438\u0441\u0438\u0442,
+      \u043A\u0430\u043A\u0438\u043C \u044F \u0441\u0442\u0430\u043D\u0443."
+    en: The wood decides what I become.
+  - kind: 14
+    ru: "\u0421\u043A\u043E\u0440\u043E \u043F\u0440\u0430\u0437\u0434\u043D\u0438\u043A\u2026
+      \u044F \u0443\u0436\u0435 \u043F\u0440\u0438\u043C\u0435\u0440\u0438\u043B
+      \u043A\u043E\u0441\u0442\u044E\u043C!"
+    en: "A holiday is coming\u2026 I tried on the outfit already!"
+  - kind: 14
+    ru: "\u0421\u0435\u043A\u0440\u0435\u0442\u043D\u044B\u0439 \u043A\u043E\u0440\u043E\u0431\u043E\u043A
+      \u0448\u0443\u0440\u0448\u0438\u0442. \u0427\u0442\u043E \u0442\u0430\u043C?"
+    en: The secret box is rustling. What's inside?
+  - kind: 14
+    ru: "\u0417\u0430\u0432\u0442\u0440\u0430 \u0431\u0443\u0434\u0435\u0442 \u043D\u043E\u0432\u044B\u0439
+      \u0443\u0440\u043E\u0432\u0435\u043D\u044C. \u042F \u043F\u043E\u0434\u0441\u043C\u043E\u0442\u0440\u0435\u043B!"
+    en: There's a new level tomorrow. I peeked!
+  - kind: 15
+    ru: "\u041F\u0440\u0430\u0437\u0434\u043D\u0438\u043A! \u042F \u0432 \u043A\u043E\u0441\u0442\u044E\u043C\u0435
+      \u2014 \u043A\u0430\u043A \u0442\u0435\u0431\u0435?"
+    en: "Holiday! I'm in costume \u2014 what do you think?"
+  - kind: 15
+    ru: "\u041F\u0440\u0430\u0437\u0434\u043D\u0438\u0447\u043D\u044B\u0435 \u043A\u043E\u0440\u043E\u0431\u043A\u0438
+      \u0443\u0436\u0435 \u0437\u0434\u0435\u0441\u044C!"
+    en: Holiday boxes are here!
+  - kind: 16
+    ru: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C \u0434\u043D\u044F \u043F\u0440\u043E\u0439\u0434\u0435\u043D!
+      \u0422\u0430\u043D\u0446\u0443\u044E!"
+    en: Daily level done! I'm dancing!
+  - kind: 16
+    ru: "\u0422\u044B \u0441\u043F\u0440\u0430\u0432\u0438\u043B\u0441\u044F! \u0417\u0430\u0432\u0442\u0440\u0430
+      \u0431\u0443\u0434\u0435\u0442 \u043D\u043E\u0432\u044B\u0439."
+    en: You did it! A new one tomorrow.
+  - kind: 17
+    ru: "\u041E\u0439, \u043A\u0430\u043A \u043A\u0440\u0430\u0441\u0438\u0432\u043E
+      \u0441\u0442\u0430\u043B\u043E!"
+    en: Oh, how pretty!
+  - kind: 17
+    ru: "\u041D\u043E\u0432\u0430\u044F \u0432\u0435\u0449\u044C! \u042F \u0431\u0443\u0434\u0443
+      \u0435\u0451 \u043E\u0445\u0440\u0430\u043D\u044F\u0442\u044C."
+    en: Something new! I'll guard it.
+  - kind: 18
+    ru: "\u041D\u043E\u0447\u044C\u044E \u044F \u0433\u043E\u0440\u044E \u043F\u043E\u0442\u0438\u0448\u0435.
+      \u0421\u043F\u0438 \u0441\u043B\u0430\u0434\u043A\u043E."
+    en: At night I burn softly. Sleep tight.

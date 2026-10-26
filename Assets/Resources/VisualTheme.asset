@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a5e9ea47d5a42ac9bcd75b66760ebf2, type: 3}
+  m_Name: VisualTheme
+  m_EditorClassIdentifier: Assembly-CSharp::VisualTheme
+  charColor: {r: 0.16470589, g: 0.05882353, b: 0.03529412, a: 1}
+  wood: {r: 0.37254903, g: 0.1882353, b: 0.13333334, a: 1}
+  woodLight: {r: 0.56078434, g: 0.30980393, b: 0.1764706, a: 1}
+  cream: {r: 0.9490196, g: 0.8117647, b: 0.5019608, a: 1}
+  ember: {r: 0.8784314, g: 0.41568628, b: 0.12156863, a: 1}
+  flame: {r: 1, g: 0.70980394, b: 0.2784314, a: 1}
+  gold: {r: 1, g: 0.827451, b: 0.3019608, a: 1}
+  matchHead: {r: 0.6392157, g: 0.14117648, b: 0.101960786, a: 1}
+  font: {fileID: 11400000, guid: 59975bdd169ad84418e06f4c29cf9385, type: 2}
+  buttonJuice: 1
+  pressScale: 0.92
+  pressDuration: 0.06
+  releaseOvershoot: 1.6
+  releaseDuration: 0.18
+  panelAnimation: 1
+  panelInDuration: 0.22
+  panelStartScale: 0.9
+  pulseAmplitude: 0.05
+  pulsePeriod: 1.6
+  bannerReserveDp: 100
+  bannerGapDp: 8
+  levelLock: 0
+  cardCascadeDelay: 0.04
+  cardAppearDuration: 0.3
+  lockedCardBrightness: 0.45
+  twoStarsShare: 0.8
+  oneStarShare: 0.6
+  fieldMargin: 0.25
+  tutorials: 1
+  tutorialLoopDuration: 1.8
+  hints: 1
+  hintDuration: 3
+  hintAlpha: 0.5
+  igniteBurst: 1
+  firePunch: 1
+  firePunchScale: 1.45
+  firePunchDuration: 0.16
+  burningSparks: 1
+  smoke: 1
+  ashOnBurnout: 1
+  burntTint: {r: 0.54901963, g: 0.52156866, b: 0.5019608, a: 1}
+  burntDarkenDuration: 0.5
+  fireLightFlicker: 1
+  fireLightFlickerAmount: 0.25
+  fireLightFlickerSpeed: 6
+  maxFireLights: 4
+  chainPitch: 1
+  chainPitchStep: 0.04
+  chainPitchMax: 1.6
+  cameraShake: 1
+  shakeAmplitude: 0.12
+  shakeDuration: 0.35
+  victoryConfetti: 1
+  confettiCount: 80
+  starPop: 1
+  coinTick: 1
+  coinTickDuration: 0.6
+  goldenShimmer: 1
+  goldenPulseSpeed: 3
+  goldenPulseAmount: 0.35
+  coinFly: 1
+  coinFlyDuration: 0.65
+  dragTilt: 1
+  dragTiltMaxAngle: 12
+  dragTiltResponse: 12
+  slotMagnet: 1
+  slotMagnetRadius: 1.1
+  slotMagnetStrength: 0.35
+  slotHighlight: 1
+  returnDuration: 0.18
+  levelAmbience: 1
+  vignetteAlpha: 0.55
+  warmGlowAlpha: 0.14
+  ambientEmbers: 1
+  playfieldBacking: 1
+  playfieldBackingAlpha: 0.3
+  playfieldBackingPadding: 0.6
+  playfieldBackingSprite: {fileID: 21300000, guid: cc09bd6189d45484a824367ac5b197c2, type: 3}
+  levelHudReserve: 170
+  levelBottomReserveDp: 24
+  levelVerticalMargin: 0.12
+  hintBackingColor: {r: 0.165, g: 0.06, b: 0.035, a: 0.72}
+  hintBackingPadding: {x: 0.28, y: 0.16}
+  sceneDoors: 1
+  doorSprite: {fileID: 6735327092626910772, guid: 8dcd82845c2b6da47ab581939c3a037a, type: 3}
+  doorCloseSeconds: 0.4
+  doorOpenSeconds: 0.45
+  doorOverlap: 0.04
+  doorSeamWidth: 0.022
+  doorSeamColor: {r: 0.22, g: 0.11, b: 0.05, a: 1}
+  doorSeamEdgeColor: {r: 0.62, g: 0.38, b: 0.2, a: 1}
+  doorShadowAlpha: 0.35
+  doorHoldSeconds: 0.08
+  vibration: 1
+  vibrateIgniteMs: 15
+  vibrateIgniteAmplitude: 60
+  vibrateSuccessMs: 40
+  vibrateSuccessAmplitude: 140
+  vibrateErrorMs: 70
+  vibrateErrorAmplitude: 90
+  tintSkins:
+  - nameEN: Golden
+    nameRU: "\u0417\u043E\u043B\u043E\u0442\u043E\u0439"
+    baseSkin: 0
+    color: {r: 1, g: 0.8980392, b: 0.5411765, a: 1}
+    price: 8
+  - nameEN: Ice
+    nameRU: "\u041B\u0435\u0434\u044F\u043D\u043E\u0439"
+    baseSkin: 2
+    color: {r: 0.7882353, g: 0.95686275, b: 1, a: 1}
+    price: 12
+  - nameEN: Ruby
+    nameRU: "\u0420\u0443\u0431\u0438\u043D\u043E\u0432\u044B\u0439"
+    baseSkin: 0
+    color: {r: 1, g: 0.47843137, b: 0.47843137, a: 1}
+    price: 15

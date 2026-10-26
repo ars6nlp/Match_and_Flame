@@ -1,0 +1,1203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 559833f91f823344f91721e4fb0519a2, type: 3}
+  m_Name: RetentionSettings
+  m_EditorClassIdentifier: Assembly-CSharp::RetentionSettings
+  unlockLevels: 3
+  extrasStage: 1
+  starterEmbers: 20
+  systemEnabled: 1
+  dailyGift: 1
+  streak: 1
+  dailyLevel: 1
+  hearth: 1
+  quests: 1
+  weeklyGoal: 1
+  weeklyEvent: 1
+  seasonal: 1
+  collection: 1
+  secretBox: 1
+  chapters: 1
+  teaser: 1
+  whatsNew: 1
+  notifications: 0
+  debugPanel: 1
+  giftEmbers: 10
+  giftStreakBonusPerDay: 1
+  giftStreakBonusMax: 10
+  giftCoinEvery: 7
+  giftPopupSeconds: 4.5
+  shieldMax: 2
+  longBreakDays: 7
+  streakMilestones: 0300000005000000070000000e000000150000001e000000
+  milestoneEmbers: 1e000000280000003c0000006400000096000000c8000000
+  glowPerStreakDay: 0.1
+  glowMax: 0.7
+  dailyWinEmbers: 25
+  dailyWinCoins: 1
+  daily3StarEmbers: 15
+  daily3StarCoins: 0
+  dailyAroma: 10
+  dailySeed: 20261017
+  questEmbers: 15
+  questAllBonus: 15
+  questAroma: 10
+  questRerollsPerDay: 1
+  regularWinEmbers: 3
+  regularWinCap: 5
+  questPool:
+  - enabled: 1
+    kind: 0
+    target: 2
+    fuel: 2
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 {0} \u0443\u0440\u043E\u0432\u043D\u044F"
+    textEN: Win {0} levels
+  - enabled: 1
+    kind: 0
+    target: 4
+    fuel: 2
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 {0} \u0443\u0440\u043E\u0432\u043D\u044F"
+    textEN: Win {0} levels
+  - enabled: 1
+    kind: 1
+    target: 1
+    fuel: 1
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+      \u043D\u0430 3 \u0437\u0432\u0435\u0437\u0434\u044B"
+    textEN: Get 3 stars on a level
+  - enabled: 1
+    kind: 1
+    target: 3
+    fuel: 1
+    textRU: "3 \u0437\u0432\u0435\u0437\u0434\u044B \u043D\u0430 {0} \u0443\u0440\u043E\u0432\u043D\u044F\u0445"
+    textEN: 3 stars on {0} levels
+  - enabled: 1
+    kind: 2
+    target: 30
+    fuel: 2
+    textRU: "\u0421\u043E\u0436\u0433\u0438 {0} \u0441\u043F\u0438\u0447\u0435\u043A"
+    textEN: Burn {0} matches
+  - enabled: 1
+    kind: 2
+    target: 80
+    fuel: 2
+    textRU: "\u0421\u043E\u0436\u0433\u0438 {0} \u0441\u043F\u0438\u0447\u0435\u043A"
+    textEN: Burn {0} matches
+  - enabled: 1
+    kind: 3
+    target: 10
+    fuel: 2
+    textRU: "\u0421\u043E\u0436\u0433\u0438 {0} \u0441\u043F\u0438\u0447\u0435\u043A
+      \u0437\u0430 \u043E\u0434\u0438\u043D \u0443\u0440\u043E\u0432\u0435\u043D\u044C"
+    textEN: Burn {0} matches in one level
+  - enabled: 1
+    kind: 3
+    target: 15
+    fuel: 2
+    textRU: "\u0421\u043E\u0436\u0433\u0438 {0} \u0441\u043F\u0438\u0447\u0435\u043A
+      \u0437\u0430 \u043E\u0434\u0438\u043D \u0443\u0440\u043E\u0432\u0435\u043D\u044C"
+    textEN: Burn {0} matches in one level
+  - enabled: 1
+    kind: 4
+    target: 1
+    fuel: 1
+    textRU: "\u0421\u043E\u0436\u0433\u0438 \u0437\u043E\u043B\u043E\u0442\u0443\u044E
+      \u0441\u043F\u0438\u0447\u043A\u0443"
+    textEN: Burn a golden match
+  - enabled: 1
+    kind: 4
+    target: 3
+    fuel: 1
+    textRU: "\u0421\u043E\u0436\u0433\u0438 {0} \u0437\u043E\u043B\u043E\u0442\u044B\u0435
+      \u0441\u043F\u0438\u0447\u043A\u0438"
+    textEN: Burn {0} golden matches
+  - enabled: 1
+    kind: 5
+    target: 1
+    fuel: 0
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+      \u0441 \u043A\u0440\u0430\u043D\u043E\u043C"
+    textEN: Win a level with a tap
+  - enabled: 1
+    kind: 5
+    target: 2
+    fuel: 0
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 {0} \u0443\u0440\u043E\u0432\u043D\u044F
+      \u0441 \u043A\u0440\u0430\u043D\u043E\u043C"
+    textEN: Win {0} levels with a tap
+  - enabled: 1
+    kind: 6
+    target: 1
+    fuel: 0
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+      \u0441 \u0432\u0435\u043D\u0442\u0438\u043B\u044F\u0442\u043E\u0440\u043E\u043C"
+    textEN: Win a level with a fan
+  - enabled: 1
+    kind: 6
+    target: 2
+    fuel: 0
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 {0} \u0443\u0440\u043E\u0432\u043D\u044F
+      \u0441 \u0432\u0435\u043D\u0442\u0438\u043B\u044F\u0442\u043E\u0440\u043E\u043C"
+    textEN: Win {0} levels with a fan
+  - enabled: 1
+    kind: 7
+    target: 1
+    fuel: 0
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+      \u0441 \u043C\u0430\u044F\u0442\u043D\u0438\u043A\u043E\u043C"
+    textEN: Win a level with a pendulum
+  - enabled: 1
+    kind: 8
+    target: 1
+    fuel: 0
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+      \u0441 \u0433\u043E\u043B\u0443\u0431\u044B\u043C\u0438 \u0441\u043F\u0438\u0447\u043A\u0430\u043C\u0438"
+    textEN: Win a level with blue matches
+  - enabled: 1
+    kind: 9
+    target: 2
+    fuel: 2
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 {0} \u0443\u0440\u043E\u0432\u043D\u044F
+      \u0431\u0435\u0437 \xAB\u0417\u0430\u043D\u043E\u0432\u043E\xBB"
+    textEN: Win {0} levels without Restart
+  - enabled: 1
+    kind: 10
+    target: 12
+    fuel: 2
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+      \u0431\u044B\u0441\u0442\u0440\u0435\u0435 {0} \u0441"
+    textEN: Win a level in under {0} s
+  - enabled: 1
+    kind: 11
+    target: 1
+    fuel: 2
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+      \u0434\u043D\u044F"
+    textEN: Win the daily level
+  - enabled: 1
+    kind: 12
+    target: 1
+    fuel: 1
+    textRU: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C \u0434\u043D\u044F \u043D\u0430
+      3 \u0437\u0432\u0435\u0437\u0434\u044B"
+    textEN: Daily level with 3 stars
+  - enabled: 1
+    kind: 13
+    target: 50
+    fuel: 1
+    textRU: "\u041F\u043E\u0434\u043A\u0438\u043D\u044C \u0432 \u043E\u0447\u0430\u0433
+      {0} \u0443\u0433\u043E\u043B\u044C\u043A\u043E\u0432"
+    textEN: Feed {0} embers to the hearth
+  - enabled: 1
+    kind: 14
+    target: 6
+    fuel: 1
+    textRU: "\u0421\u043E\u0431\u0435\u0440\u0438 {0} \u0437\u0432\u0451\u0437\u0434"
+    textEN: Earn {0} stars
+  - enabled: 1
+    kind: 15
+    target: 1
+    fuel: 1
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 \u0441\u043B\u043E\u0436\u043D\u044B\u0439
+      \u0443\u0440\u043E\u0432\u0435\u043D\u044C (3 \u043E\u0433\u043E\u043D\u044C\u043A\u0430)"
+    textEN: Win a hard level (3 flames)
+  - enabled: 1
+    kind: 16
+    target: 3
+    fuel: 2
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 {0} \u0440\u0430\u0437\u043D\u044B\u0445
+      \u0443\u0440\u043E\u0432\u043D\u044F"
+    textEN: Win {0} different levels
+  weeklyGoalWins: 12
+  weeklyGoalEmbers: 80
+  weeklyGoalCoins: 4
+  weekSteps: 0400000008000000
+  weekStepEmbers: 140000001e000000
+  weeklyEventEmbers: 60
+  weeklyEventDupEmbers: 100
+  weekThemes:
+  - enabled: 1
+    kind: 5
+    target: 5
+    nameRU: "\u041D\u0435\u0434\u0435\u043B\u044F \u0432\u043E\u0434\u044B"
+    nameEN: Water week
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 {0} \u0443\u0440\u043E\u0432\u043D\u0435\u0439
+      \u0441 \u043A\u0440\u0430\u043D\u043E\u043C"
+    textEN: Win {0} levels with a tap
+    outfit: 18
+    color: {r: 0.45, g: 0.8, b: 1, a: 1}
+  - enabled: 1
+    kind: 6
+    target: 5
+    nameRU: "\u041D\u0435\u0434\u0435\u043B\u044F \u0432\u0435\u0442\u0440\u0430"
+    nameEN: Wind week
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 {0} \u0443\u0440\u043E\u0432\u043D\u0435\u0439
+      \u0441 \u0432\u0435\u043D\u0442\u0438\u043B\u044F\u0442\u043E\u0440\u043E\u043C"
+    textEN: Win {0} levels with a fan
+    outfit: 19
+    color: {r: 0.7, g: 0.95, b: 0.9, a: 1}
+  - enabled: 1
+    kind: 4
+    target: 8
+    nameRU: "\u0417\u043E\u043B\u043E\u0442\u0430\u044F \u043D\u0435\u0434\u0435\u043B\u044F"
+    nameEN: Golden week
+    textRU: "\u0421\u043E\u0436\u0433\u0438 {0} \u0437\u043E\u043B\u043E\u0442\u044B\u0445
+      \u0441\u043F\u0438\u0447\u0435\u043A"
+    textEN: Burn {0} golden matches
+    outfit: 20
+    color: {r: 1, g: 0.82, b: 0.3, a: 1}
+  - enabled: 1
+    kind: 10
+    target: 15
+    nameRU: "\u0411\u044B\u0441\u0442\u0440\u044B\u0439 \u043E\u0433\u043E\u043D\u044C"
+    nameEN: Quick fire
+    textRU: "5 \u043F\u043E\u0431\u0435\u0434 \u0431\u044B\u0441\u0442\u0440\u0435\u0435
+      {0} \u0441"
+    textEN: 5 wins in under {0} s
+    outfit: 21
+    color: {r: 1, g: 0.5, b: 0.25, a: 1}
+  - enabled: 1
+    kind: 2
+    target: 150
+    nameRU: "\u041D\u0435\u0434\u0435\u043B\u044F \u0446\u0435\u043F\u0435\u0439"
+    nameEN: Chain week
+    textRU: "\u0421\u043E\u0436\u0433\u0438 {0} \u0441\u043F\u0438\u0447\u0435\u043A"
+    textEN: Burn {0} matches
+    outfit: 22
+    color: {r: 1, g: 0.6, b: 0.35, a: 1}
+  - enabled: 1
+    kind: 14
+    target: 15
+    nameRU: "\u0417\u0432\u0451\u0437\u0434\u043D\u0430\u044F \u043D\u0435\u0434\u0435\u043B\u044F"
+    nameEN: Star week
+    textRU: "\u0421\u043E\u0431\u0435\u0440\u0438 {0} \u0437\u0432\u0451\u0437\u0434"
+    textEN: Earn {0} stars
+    outfit: 23
+    color: {r: 1, g: 0.9, b: 0.5, a: 1}
+  - enabled: 1
+    kind: 7
+    target: 4
+    nameRU: "\u041D\u0435\u0434\u0435\u043B\u044F \u043C\u0430\u044F\u0442\u043D\u0438\u043A\u0430"
+    nameEN: Pendulum week
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 {0} \u0443\u0440\u043E\u0432\u043D\u044F
+      \u0441 \u043C\u0430\u044F\u0442\u043D\u0438\u043A\u043E\u043C"
+    textEN: Win {0} levels with a pendulum
+    outfit: 24
+    color: {r: 0.85, g: 0.7, b: 1, a: 1}
+  - enabled: 1
+    kind: 9
+    target: 6
+    nameRU: "\u0422\u0438\u0445\u0430\u044F \u043D\u0435\u0434\u0435\u043B\u044F"
+    nameEN: Quiet week
+    textRU: "\u041F\u0440\u043E\u0439\u0434\u0438 {0} \u0443\u0440\u043E\u0432\u043D\u0435\u0439
+      \u0431\u0435\u0437 \xAB\u0417\u0430\u043D\u043E\u0432\u043E\xBB"
+    textEN: Win {0} levels without Restart
+    outfit: 25
+    color: {r: 0.6, g: 0.65, b: 0.95, a: 1}
+  stages:
+  - nameRU: "\u0418\u0441\u043A\u0440\u0430"
+    nameEN: Spark
+    warmth: 0
+    coins: 0
+    outfit: -1
+    scale: 0.42
+    lineRU: "\u041F\u0440\u0438\u0432\u0435\u0442! \u042F \u0441\u043E\u0432\u0441\u0435\u043C
+      \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439, \u043D\u043E \u043E\u0447\u0435\u043D\u044C
+      \u0442\u0451\u043F\u043B\u044B\u0439."
+    lineEN: Hi! I'm tiny, but very warm.
+  - nameRU: "\u042F\u0437\u044B\u0447\u043E\u043A"
+    nameEN: Flicker
+    warmth: 120
+    coins: 2
+    outfit: 0
+    scale: 0.52
+    lineRU: "\u0421\u043C\u043E\u0442\u0440\u0438, \u044F \u043F\u043E\u0434\u0440\u043E\u0441!
+      \u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0437\u0430 \u0443\u0433\u043E\u043B\u044C\u043A\u0438."
+    lineEN: Look, I've grown! Thanks for the embers.
+  - nameRU: "\u041E\u0433\u043E\u043D\u0451\u043A"
+    nameEN: Little flame
+    warmth: 360
+    coins: 2
+    outfit: 1
+    scale: 0.62
+    lineRU: "\u0422\u0435\u043F\u0435\u0440\u044C \u043C\u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442
+      \u0441\u0438\u043B \u0441\u043E\u0433\u0440\u0435\u0442\u044C \u0432\u0441\u044E
+      \u043A\u043E\u043C\u043D\u0430\u0442\u0443."
+    lineEN: Now I can warm the whole room.
+  - nameRU: "\u041A\u043E\u0441\u0442\u0451\u0440"
+    nameEN: Campfire
+    warmth: 800
+    coins: 3
+    outfit: 2
+    scale: 0.72
+    lineRU: "\u042F \u0442\u0440\u0435\u0449\u0443, \u043A\u0430\u043A \u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0438\u0439
+      \u043A\u043E\u0441\u0442\u0451\u0440!"
+    lineEN: I crackle like a real campfire!
+  - nameRU: "\u0424\u0430\u043A\u0435\u043B"
+    nameEN: Torch
+    warmth: 1450
+    coins: 3
+    outfit: 3
+    scale: 0.82
+    lineRU: "\u0421 \u0444\u0430\u043A\u0435\u043B\u043E\u043C \u043D\u0435 \u0441\u0442\u0440\u0430\u0448\u043D\u044B
+      \u043D\u0438\u043A\u0430\u043A\u0438\u0435 \u0442\u0451\u043C\u043D\u044B\u0435
+      \u043A\u043E\u0440\u0438\u0434\u043E\u0440\u044B."
+    lineEN: No dark corridor can scare a torch.
+  - nameRU: "\u041C\u0430\u044F\u043A"
+    nameEN: Lighthouse
+    warmth: 2300
+    coins: 4
+    outfit: 4
+    scale: 0.92
+    lineRU: "\u041C\u043E\u0439 \u0441\u0432\u0435\u0442 \u0432\u0438\u0434\u043D\u043E
+      \u0441 \u0434\u0440\u0443\u0433\u043E\u0433\u043E \u0431\u0435\u0440\u0435\u0433\u0430."
+    lineEN: My light reaches the far shore.
+  - nameRU: "\u0417\u0432\u0435\u0437\u0434\u0430"
+    nameEN: Star
+    warmth: 3400
+    coins: 4
+    outfit: 5
+    scale: 1.02
+    lineRU: "\u042F \u0441\u0438\u044F\u044E, \u043A\u0430\u043A \u0437\u0432\u0435\u0437\u0434\u0430
+      \u043D\u0430\u0434 \u043A\u0440\u044B\u0448\u0435\u0439."
+    lineEN: I shine like a star above the roof.
+  - nameRU: "\u0421\u043E\u043B\u043D\u0446\u0435"
+    nameEN: Sun
+    warmth: 4800
+    coins: 5
+    outfit: 6
+    scale: 1.12
+    lineRU: "\u042F \u2014 \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u043E\u0435
+      \u0441\u043E\u043B\u043D\u0446\u0435 \u044D\u0442\u043E\u0433\u043E \u0434\u043E\u043C\u0430!"
+    lineEN: I'm the little sun of this home!
+  fuelColors:
+  - {r: 0.45, g: 0.8, b: 1, a: 1}
+  - {r: 1, g: 0.78, b: 0.3, a: 1}
+  - {r: 1, g: 0.35, b: 0.4, a: 1}
+  fuelSkin: 020000000000000003000000
+  fuelNamesRU:
+  - "\u0421\u043E\u0441\u043D\u0430"
+  - "\u0414\u0443\u0431"
+  - "\u0412\u0438\u0448\u043D\u044F"
+  fuelNamesEN:
+  - Pine
+  - Oak
+  - Cherry
+  decor:
+  - enabled: 1
+    nameRU: "\u041A\u043E\u0432\u0440\u0438\u043A"
+    nameEN: Rug
+    priceCoins: 8
+    priceEmbers: 0
+    sprite: dec_rug
+    slot: {x: 0.5, y: 0.055}
+    width: 0.36
+    behind: 0
+    underFlame: 1
+    layer: 2
+    life: 0
+  - enabled: 1
+    nameRU: "\u041F\u043E\u043B\u043A\u0430"
+    nameEN: Shelf
+    priceCoins: 12
+    priceEmbers: 0
+    sprite: dec_shelf
+    slot: {x: 0.15, y: 0.88}
+    width: 0.22
+    behind: 1
+    underFlame: 0
+    layer: 0
+    life: 0
+  - enabled: 1
+    nameRU: "\u041A\u0440\u0435\u0441\u043B\u043E"
+    nameEN: Armchair
+    priceCoins: 16
+    priceEmbers: 0
+    sprite: dec_chair
+    slot: {x: 0.87, y: 0.2}
+    width: 0.24
+    behind: 0
+    underFlame: 0
+    layer: 3
+    life: 5
+  - enabled: 1
+    nameRU: "\u041F\u043E\u0440\u0442\u0440\u0435\u0442"
+    nameEN: Portrait
+    priceCoins: 20
+    priceEmbers: 0
+    sprite: dec_portrait
+    slot: {x: 0.86, y: 0.74}
+    width: 0.17
+    behind: 1
+    underFlame: 0
+    layer: 0
+    life: 0
+  - enabled: 1
+    nameRU: "\u041F\u043E\u043B\u0435\u043D\u043D\u0438\u0446\u0430"
+    nameEN: Woodpile
+    priceCoins: 26
+    priceEmbers: 0
+    sprite: dec_wood
+    slot: {x: 0.13, y: 0.14}
+    width: 0.19
+    behind: 0
+    underFlame: 0
+    layer: 3
+    life: 0
+  - enabled: 1
+    nameRU: "\u0420\u0430\u0441\u0442\u0435\u043D\u0438\u0435"
+    nameEN: Plant
+    priceCoins: 0
+    priceEmbers: 300
+    sprite: dec_plant
+    slot: {x: 0.06, y: 0.3}
+    width: 0.12
+    behind: 0
+    underFlame: 0
+    layer: 3
+    life: 3
+  - enabled: 1
+    nameRU: "\u041B\u0430\u043C\u043F\u0430"
+    nameEN: Lamp
+    priceCoins: 0
+    priceEmbers: 450
+    sprite: dec_lamp
+    slot: {x: 0.32, y: 0.518}
+    width: 0.09
+    behind: 1
+    underFlame: 0
+    layer: 1
+    life: 2
+  - enabled: 1
+    nameRU: "\u0427\u0430\u0441\u044B"
+    nameEN: Clock
+    priceCoins: 0
+    priceEmbers: 650
+    sprite: dec_clock
+    slot: {x: 0.5, y: 0.82}
+    width: 0.13
+    behind: 1
+    underFlame: 0
+    layer: 0
+    life: 1
+  - enabled: 1
+    nameRU: "\u0428\u0442\u043E\u0440\u044B"
+    nameEN: Curtains
+    priceCoins: 0
+    priceEmbers: 850
+    sprite: dec_curtains
+    slot: {x: 0.17, y: 0.66}
+    width: 0.27
+    behind: 1
+    underFlame: 0
+    layer: 0
+    life: 5
+  - enabled: 1
+    nameRU: "\u041C\u0435\u0434\u043D\u044B\u0439 \u0447\u0430\u0439\u043D\u0438\u043A"
+    nameEN: Copper kettle
+    priceCoins: 0
+    priceEmbers: 1100
+    sprite: dec_kettle
+    slot: {x: 0.68, y: 0.518}
+    width: 0.09
+    behind: 1
+    underFlame: 0
+    layer: 1
+    life: 4
+  outfits:
+  - enabled: 1
+    nameRU: "\u0411\u0430\u043D\u0442\u0438\u043A"
+    nameEN: Bow
+    sprite: out_bow
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u0441\u0442\u0430\u0434\u0438\u044F \u042F\u0437\u044B\u0447\u043E\u043A"
+    sourceEN: Flicker stage
+  - enabled: 1
+    nameRU: "\u0428\u0430\u0440\u0444\u0438\u043A"
+    nameEN: Scarf
+    sprite: out_scarf
+    offset: {x: 0, y: 0.05}
+    size: 0.4
+    sourceRU: "\u0441\u0442\u0430\u0434\u0438\u044F \u041E\u0433\u043E\u043D\u0451\u043A"
+    sourceEN: Little flame stage
+  - enabled: 1
+    nameRU: "\u041E\u0447\u043A\u0438"
+    nameEN: Glasses
+    sprite: out_glasses
+    offset: {x: 0, y: 0.16}
+    size: 0.34
+    sourceRU: "\u0441\u0442\u0430\u0434\u0438\u044F \u041A\u043E\u0441\u0442\u0451\u0440"
+    sourceEN: Campfire stage
+  - enabled: 1
+    nameRU: "\u0426\u0438\u043B\u0438\u043D\u0434\u0440"
+    nameEN: Top hat
+    sprite: out_tophat
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u0441\u0442\u0430\u0434\u0438\u044F \u0424\u0430\u043A\u0435\u043B"
+    sourceEN: Torch stage
+  - enabled: 1
+    nameRU: "\u041D\u0430\u0443\u0448\u043D\u0438\u043A\u0438"
+    nameEN: Headphones
+    sprite: out_headphones
+    offset: {x: 0, y: 0.3}
+    size: 0.44
+    sourceRU: "\u0441\u0442\u0430\u0434\u0438\u044F \u041C\u0430\u044F\u043A"
+    sourceEN: Lighthouse stage
+  - enabled: 1
+    nameRU: "\u041A\u043E\u0440\u043E\u043D\u0430"
+    nameEN: Crown
+    sprite: out_crown
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u0441\u0442\u0430\u0434\u0438\u044F \u0417\u0432\u0435\u0437\u0434\u0430"
+    sourceEN: Star stage
+  - enabled: 1
+    nameRU: "\u0417\u0432\u0451\u0437\u0434\u043D\u044B\u0439 \u043D\u0438\u043C\u0431"
+    nameEN: Star halo
+    sprite: out_halo
+    offset: {x: 0, y: 0.5}
+    size: 0.42
+    sourceRU: "\u0441\u0442\u0430\u0434\u0438\u044F \u0421\u043E\u043B\u043D\u0446\u0435"
+    sourceEN: Sun stage
+  - enabled: 1
+    nameRU: "\u041D\u043E\u0432\u043E\u0433\u043E\u0434\u043D\u0438\u0439 \u043A\u043E\u043B\u043F\u0430\u043A"
+    nameEN: Winter hat
+    sprite: out_santa
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043F\u0440\u0430\u0437\u0434\u043D\u0438\u043A: \u041D\u043E\u0432\u044B\u0439
+      \u0433\u043E\u0434"
+    sourceEN: 'event: New Year'
+  - enabled: 1
+    nameRU: "\u0421\u0435\u0440\u0434\u0435\u0447\u043A\u043E"
+    nameEN: Heart
+    sprite: out_heart
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043F\u0440\u0430\u0437\u0434\u043D\u0438\u043A: \u0422\u0451\u043F\u043B\u044B\u0435
+      \u0441\u0435\u0440\u0434\u0446\u0430"
+    sourceEN: 'event: Warm Hearts'
+  - enabled: 1
+    nameRU: "\u0422\u044E\u0431\u0435\u0442\u0435\u0439\u043A\u0430"
+    nameEN: Tubeteika
+    sprite: out_tubeteika
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043F\u0440\u0430\u0437\u0434\u043D\u0438\u043A: \u041D\u0430\u0443\u0440\u044B\u0437"
+    sourceEN: 'event: Nauryz'
+  - enabled: 1
+    nameRU: "\u0412\u0435\u043D\u043E\u043A"
+    nameEN: Flower wreath
+    sprite: out_wreath
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043F\u0440\u0430\u0437\u0434\u043D\u0438\u043A: \u0412\u0435\u0441\u043D\u0430"
+    sourceEN: 'event: Spring'
+  - enabled: 1
+    nameRU: "\u0421\u043E\u043B\u043D\u0435\u0447\u043D\u044B\u0435 \u043E\u0447\u043A\u0438"
+    nameEN: Sunglasses
+    sprite: out_sunglasses
+    offset: {x: 0, y: 0.16}
+    size: 0.34
+    sourceRU: "\u043F\u0440\u0430\u0437\u0434\u043D\u0438\u043A: \u041B\u0435\u0442\u043E"
+    sourceEN: 'event: Summer'
+  - enabled: 1
+    nameRU: "\u041F\u0435\u0440\u043E \u0444\u0435\u043D\u0438\u043A\u0441\u0430"
+    nameEN: Phoenix feather
+    sprite: out_feather
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043F\u0440\u0430\u0437\u0434\u043D\u0438\u043A: \u0414\u0435\u043D\u044C
+      \u043E\u0433\u043D\u044F"
+    sourceEN: 'event: Fire Day'
+  - enabled: 1
+    nameRU: "\u041E\u0441\u0435\u043D\u043D\u0438\u0439 \u0432\u0435\u043D\u043E\u043A"
+    nameEN: Leaf crown
+    sprite: out_leaves
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043F\u0440\u0430\u0437\u0434\u043D\u0438\u043A: \u041B\u0438\u0441\u0442\u043E\u043F\u0430\u0434"
+    sourceEN: 'event: Leaf Fall'
+  - enabled: 1
+    nameRU: "\u0428\u043B\u044F\u043F\u0430-\u0442\u044B\u043A\u0432\u0430"
+    nameEN: Pumpkin hat
+    sprite: out_pumpkin
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043F\u0440\u0430\u0437\u0434\u043D\u0438\u043A: \u0425\u044D\u043B\u043B\u043E\u0443\u0438\u043D"
+    sourceEN: 'event: Halloween'
+  - enabled: 1
+    nameRU: "\u0428\u043B\u044F\u043F\u0430 \u0432\u043E\u043B\u0448\u0435\u0431\u043D\u0438\u043A\u0430"
+    nameEN: Wizard hat
+    sprite: out_wizard
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u0441\u0435\u043A\u0440\u0435\u0442\u043D\u044B\u0439 \u043A\u043E\u0440\u043E\u0431\u043E\u043A"
+    sourceEN: secret box
+  - enabled: 1
+    nameRU: "\u0412\u044F\u0437\u0430\u043D\u0430\u044F \u0448\u0430\u043F\u043E\u0447\u043A\u0430"
+    nameEN: Beanie
+    sprite: out_beanie
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u0441\u0435\u043A\u0440\u0435\u0442\u043D\u044B\u0439 \u043A\u043E\u0440\u043E\u0431\u043E\u043A"
+    sourceEN: secret box
+  - enabled: 1
+    nameRU: "\u041F\u0440\u0430\u0437\u0434\u043D\u0438\u0447\u043D\u044B\u0439 \u043A\u043E\u043B\u043F\u0430\u043A"
+    nameEN: Party hat
+    sprite: out_party
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u0441\u0435\u043A\u0440\u0435\u0442\u043D\u044B\u0439 \u043A\u043E\u0440\u043E\u0431\u043E\u043A"
+    sourceEN: secret box
+  - enabled: 1
+    nameRU: "\u041A\u0430\u043F\u044E\u0448\u043E\u043D-\u043A\u0430\u043F\u043B\u044F"
+    nameEN: Drop hood
+    sprite: out_drop
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043D\u0435\u0434\u0435\u043B\u044F: \u0412\u043E\u0434\u0430"
+    sourceEN: 'week: Water'
+  - enabled: 1
+    nameRU: "\u0412\u0435\u0440\u0442\u0443\u0448\u043A\u0430"
+    nameEN: Pinwheel
+    sprite: out_pinwheel
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043D\u0435\u0434\u0435\u043B\u044F: \u0412\u0435\u0442\u0435\u0440"
+    sourceEN: 'week: Wind'
+  - enabled: 1
+    nameRU: "\u041C\u043E\u043D\u043E\u043A\u043B\u044C"
+    nameEN: Monocle
+    sprite: out_monocle
+    offset: {x: 0, y: 0.16}
+    size: 0.26
+    sourceRU: "\u043D\u0435\u0434\u0435\u043B\u044F: \u0417\u043E\u043B\u043E\u0442\u043E"
+    sourceEN: 'week: Gold'
+  - enabled: 1
+    nameRU: "\u041C\u043E\u043B\u043D\u0438\u044F"
+    nameEN: Lightning
+    sprite: out_bolt
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043D\u0435\u0434\u0435\u043B\u044F: \u0411\u044B\u0441\u0442\u0440\u044B\u0439
+      \u043E\u0433\u043E\u043D\u044C"
+    sourceEN: 'week: Quick fire'
+  - enabled: 1
+    nameRU: "\u0426\u0435\u043F\u043E\u0447\u043A\u0430"
+    nameEN: Chain
+    sprite: out_chain
+    offset: {x: 0, y: 0.02}
+    size: 0.4
+    sourceRU: "\u043D\u0435\u0434\u0435\u043B\u044F: \u0426\u0435\u043F\u044C"
+    sourceEN: 'week: Chain'
+  - enabled: 1
+    nameRU: "\u0417\u0430\u043A\u043E\u043B\u043A\u0430-\u0437\u0432\u0435\u0437\u0434\u0430"
+    nameEN: Star clip
+    sprite: out_starclip
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043D\u0435\u0434\u0435\u043B\u044F: \u0417\u0432\u0451\u0437\u0434\u044B"
+    sourceEN: 'week: Stars'
+  - enabled: 1
+    nameRU: "\u0427\u0430\u0441\u0438\u043A\u0438"
+    nameEN: Pocket watch
+    sprite: out_watch
+    offset: {x: 0, y: 0.04}
+    size: 0.3
+    sourceRU: "\u043D\u0435\u0434\u0435\u043B\u044F: \u041C\u0430\u044F\u0442\u043D\u0438\u043A"
+    sourceEN: 'week: Pendulum'
+  - enabled: 1
+    nameRU: "\u041D\u043E\u0447\u043D\u043E\u0439 \u043A\u043E\u043B\u043F\u0430\u043A"
+    nameEN: Nightcap
+    sprite: out_nightcap
+    offset: {x: 0, y: 0.42}
+    size: 0.36
+    sourceRU: "\u043D\u0435\u0434\u0435\u043B\u044F: \u0422\u0438\u0448\u0438\u043D\u0430"
+    sourceEN: 'week: Silence'
+  boxes:
+  - enabled: 1
+    nameRU: "\u041B\u0435\u0441: \u0401\u043B\u043A\u0430"
+    nameEN: 'Forest: Fir'
+    rarity: 0
+    set: 0
+    seasonal: 0
+    sprite: box_00
+  - enabled: 1
+    nameRU: "\u041B\u0435\u0441: \u0413\u0440\u0438\u0431"
+    nameEN: 'Forest: Mushroom'
+    rarity: 0
+    set: 0
+    seasonal: 0
+    sprite: box_01
+  - enabled: 1
+    nameRU: "\u041B\u0435\u0441: \u0421\u043E\u0432\u0430"
+    nameEN: 'Forest: Owl'
+    rarity: 1
+    set: 0
+    seasonal: 0
+    sprite: box_02
+  - enabled: 1
+    nameRU: "\u041B\u0435\u0441: \u041B\u0438\u0441"
+    nameEN: 'Forest: Fox'
+    rarity: 0
+    set: 0
+    seasonal: 0
+    sprite: box_03
+  - enabled: 1
+    nameRU: "\u041C\u043E\u0440\u0435: \u0412\u043E\u043B\u043D\u0430"
+    nameEN: 'Sea: Wave'
+    rarity: 0
+    set: 1
+    seasonal: 0
+    sprite: box_04
+  - enabled: 1
+    nameRU: "\u041C\u043E\u0440\u0435: \u0420\u0430\u043A\u0443\u0448\u043A\u0430"
+    nameEN: 'Sea: Shell'
+    rarity: 0
+    set: 1
+    seasonal: 0
+    sprite: box_05
+  - enabled: 1
+    nameRU: "\u041C\u043E\u0440\u0435: \u041A\u0438\u0442"
+    nameEN: 'Sea: Whale'
+    rarity: 1
+    set: 1
+    seasonal: 0
+    sprite: box_06
+  - enabled: 1
+    nameRU: "\u041C\u043E\u0440\u0435: \u041C\u0430\u044F\u043A"
+    nameEN: 'Sea: Lighthouse'
+    rarity: 0
+    set: 1
+    seasonal: 0
+    sprite: box_07
+  - enabled: 1
+    nameRU: "\u0413\u043E\u0440\u043E\u0434: \u0422\u0440\u0430\u043C\u0432\u0430\u0439"
+    nameEN: 'City: Tram'
+    rarity: 0
+    set: 2
+    seasonal: 0
+    sprite: box_08
+  - enabled: 1
+    nameRU: "\u0413\u043E\u0440\u043E\u0434: \u0424\u043E\u043D\u0430\u0440\u044C"
+    nameEN: 'City: Lantern'
+    rarity: 0
+    set: 2
+    seasonal: 0
+    sprite: box_09
+  - enabled: 1
+    nameRU: "\u0413\u043E\u0440\u043E\u0434: \u041C\u043E\u0441\u0442"
+    nameEN: 'City: Bridge'
+    rarity: 1
+    set: 2
+    seasonal: 0
+    sprite: box_10
+  - enabled: 1
+    nameRU: "\u0413\u043E\u0440\u043E\u0434: \u0411\u0430\u0448\u043D\u044F"
+    nameEN: 'City: Tower'
+    rarity: 1
+    set: 2
+    seasonal: 0
+    sprite: box_11
+  - enabled: 1
+    nameRU: "\u041A\u0443\u0445\u043D\u044F: \u0427\u0430\u0448\u043A\u0430"
+    nameEN: 'Kitchen: Cup'
+    rarity: 0
+    set: 3
+    seasonal: 0
+    sprite: box_12
+  - enabled: 1
+    nameRU: "\u041A\u0443\u0445\u043D\u044F: \u041F\u0438\u0440\u043E\u0433"
+    nameEN: 'Kitchen: Pie'
+    rarity: 0
+    set: 3
+    seasonal: 0
+    sprite: box_13
+  - enabled: 1
+    nameRU: "\u041A\u0443\u0445\u043D\u044F: \u0427\u0430\u0439\u043D\u0438\u043A"
+    nameEN: 'Kitchen: Teapot'
+    rarity: 1
+    set: 3
+    seasonal: 0
+    sprite: box_14
+  - enabled: 1
+    nameRU: "\u041A\u0443\u0445\u043D\u044F: \u041F\u0440\u044F\u043D\u0438\u043A"
+    nameEN: 'Kitchen: Gingerbread'
+    rarity: 2
+    set: 3
+    seasonal: 0
+    sprite: box_15
+  - enabled: 1
+    nameRU: "\u0426\u0438\u0440\u043A: \u041C\u044F\u0447"
+    nameEN: 'Circus: Ball'
+    rarity: 0
+    set: 4
+    seasonal: 0
+    sprite: box_16
+  - enabled: 1
+    nameRU: "\u0426\u0438\u0440\u043A: \u0428\u0430\u0442\u0451\u0440"
+    nameEN: 'Circus: Tent'
+    rarity: 0
+    set: 4
+    seasonal: 0
+    sprite: box_17
+  - enabled: 1
+    nameRU: "\u0426\u0438\u0440\u043A: \u041A\u043B\u043E\u0443\u043D"
+    nameEN: 'Circus: Clown'
+    rarity: 1
+    set: 4
+    seasonal: 0
+    sprite: box_18
+  - enabled: 1
+    nameRU: "\u0426\u0438\u0440\u043A: \u0421\u043B\u043E\u043D"
+    nameEN: 'Circus: Elephant'
+    rarity: 2
+    set: 4
+    seasonal: 0
+    sprite: box_19
+  - enabled: 1
+    nameRU: "\u041A\u043E\u0441\u043C\u043E\u0441: \u041B\u0443\u043D\u0430"
+    nameEN: 'Space: Moon'
+    rarity: 0
+    set: 5
+    seasonal: 0
+    sprite: box_20
+  - enabled: 1
+    nameRU: "\u041A\u043E\u0441\u043C\u043E\u0441: \u041A\u043E\u043C\u0435\u0442\u0430"
+    nameEN: 'Space: Comet'
+    rarity: 0
+    set: 5
+    seasonal: 0
+    sprite: box_21
+  - enabled: 1
+    nameRU: "\u041A\u043E\u0441\u043C\u043E\u0441: \u0420\u0430\u043A\u0435\u0442\u0430"
+    nameEN: 'Space: Rocket'
+    rarity: 1
+    set: 5
+    seasonal: 0
+    sprite: box_22
+  - enabled: 1
+    nameRU: "\u041A\u043E\u0441\u043C\u043E\u0441: \u0421\u0430\u0442\u0443\u0440\u043D"
+    nameEN: 'Space: Saturn'
+    rarity: 2
+    set: 5
+    seasonal: 0
+    sprite: box_23
+  - enabled: 1
+    nameRU: "\u041D\u043E\u0432\u043E\u0433\u043E\u0434\u043D\u0438\u0439 \u043A\u043E\u0440\u043E\u0431\u043E\u043A"
+    nameEN: New Year box
+    rarity: 1
+    set: -1
+    seasonal: 1
+    sprite: box_24
+  - enabled: 1
+    nameRU: "\u0421\u0435\u0440\u0434\u0435\u0447\u043D\u044B\u0439 \u043A\u043E\u0440\u043E\u0431\u043E\u043A"
+    nameEN: Hearts box
+    rarity: 1
+    set: -1
+    seasonal: 1
+    sprite: box_25
+  - enabled: 1
+    nameRU: "\u041D\u0430\u0443\u0440\u044B\u0437 \u043A\u043E\u0440\u043E\u0431\u043E\u043A"
+    nameEN: Nauryz box
+    rarity: 1
+    set: -1
+    seasonal: 1
+    sprite: box_26
+  - enabled: 1
+    nameRU: "\u0412\u0435\u0441\u0435\u043D\u043D\u0438\u0439 \u043A\u043E\u0440\u043E\u0431\u043E\u043A"
+    nameEN: Spring box
+    rarity: 1
+    set: -1
+    seasonal: 1
+    sprite: box_27
+  - enabled: 1
+    nameRU: "\u041B\u0435\u0442\u043D\u0438\u0439 \u043A\u043E\u0440\u043E\u0431\u043E\u043A"
+    nameEN: Summer box
+    rarity: 1
+    set: -1
+    seasonal: 1
+    sprite: box_28
+  - enabled: 1
+    nameRU: "\u041E\u0433\u043D\u0435\u043D\u043D\u044B\u0439 \u043A\u043E\u0440\u043E\u0431\u043E\u043A"
+    nameEN: Fire Day box
+    rarity: 1
+    set: -1
+    seasonal: 1
+    sprite: box_29
+  - enabled: 1
+    nameRU: "\u041E\u0441\u0435\u043D\u043D\u0438\u0439 \u043A\u043E\u0440\u043E\u0431\u043E\u043A"
+    nameEN: Autumn box
+    rarity: 1
+    set: -1
+    seasonal: 1
+    sprite: box_30
+  - enabled: 1
+    nameRU: "\u0422\u044B\u043A\u0432\u0435\u043D\u043D\u044B\u0439 \u043A\u043E\u0440\u043E\u0431\u043E\u043A"
+    nameEN: Pumpkin box
+    rarity: 1
+    set: -1
+    seasonal: 1
+    sprite: box_31
+  rarityOdds: 3c0000001e0000000a000000
+  dupEmbers: 140000002800000050000000
+  setEmbers: 100
+  secretStreak: 5
+  secretOutfits: 0f0000001000000011000000
+  chapterList:
+  - first: 0
+    last: 5
+    nameRU: "\u041F\u0435\u0440\u0432\u044B\u0435 \u0438\u0441\u043A\u0440\u044B"
+    nameEN: First sparks
+    color: {r: 1, g: 0.62, b: 0.25, a: 1}
+    motif: 0
+  - first: 6
+    last: 11
+    nameRU: "\u041A\u0430\u0447\u0435\u043B\u0438"
+    nameEN: Swings
+    color: {r: 0.95, g: 0.75, b: 0.35, a: 1}
+    motif: 1
+  - first: 12
+    last: 16
+    nameRU: "\u041B\u043E\u0432\u043A\u043E\u0441\u0442\u044C \u0440\u0443\u043A"
+    nameEN: Sleight of hand
+    color: {r: 1, g: 0.5, b: 0.3, a: 1}
+    motif: 2
+  - first: 17
+    last: 21
+    nameRU: "\u0412\u043E\u0434\u0430 \u0438 \u0432\u0435\u0442\u0435\u0440"
+    nameEN: Water and wind
+    color: {r: 0.45, g: 0.78, b: 1, a: 1}
+    motif: 3
+  - first: 22
+    last: 26
+    nameRU: "\u041C\u0430\u0441\u0442\u0435\u0440\u0441\u043A\u0430\u044F"
+    nameEN: Workshop
+    color: {r: 0.85, g: 0.65, b: 1, a: 1}
+    motif: 4
+  - first: 27
+    last: 31
+    nameRU: "\u0411\u043E\u043B\u044C\u0448\u043E\u0439 \u043E\u0433\u043E\u043D\u044C"
+    nameEN: Great fire
+    color: {r: 1, g: 0.4, b: 0.3, a: 1}
+    motif: 5
+  nextChapterRU: 
+  nextChapterEN: 
+  levelTags: 000000000000000000000000000000000000000010000000140000003000000014000000340000003400000010000000100000003000000030000000200000000000000018000000110000001a0000003f0000003f000000100000001c000000190000003a0000003f00000018000000190000003e0000003b0000003f000000
+  levelDifficulty: 0100000001000000010000000200000001000000010000000200000003000000020000000300000003000000020000000200000003000000030000000300000002000000010000000100000002000000030000000300000001000000020000000200000003000000030000000200000002000000030000000300000003000000
+  quietFrom: 22
+  quietTo: 9
+  defaultReminderHour: 18
+  font: {fileID: 11400000, guid: 59975bdd169ad84418e06f4c29cf9385, type: 2}
+  card: {fileID: 21300000, guid: 031463705cad8b64e9edb73eca3963ef, type: 3}
+  button: {fileID: 21300000, guid: a269396fec0eb6443b3fe87579c5bba0, type: 3}
+  buttonLight: {fileID: 21300000, guid: da1112cabd933c947aacf22a5b630159, type: 3}
+  pill: {fileID: 21300000, guid: f632e7ee3488ddf46a7f52a142701d02, type: 3}
+  shadow: {fileID: 21300000, guid: cc09bd6189d45484a824367ac5b197c2, type: 3}
+  glow: {fileID: -2095641726186779527, guid: 1e679b402004639409984f1b4694f359, type: 3}
+  art:
+  - {fileID: -7832515135564749234, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -8245076200064666278, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -7292692277872050741, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -215558851565093465, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -5205635464536910000, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -591311645871132129, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -5531832663783811644, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 1066739114713909134, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 1993586719620033767, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -1005305982854274069, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -3497551800694969962, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -710303335894913843, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -906433963450552228, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 2976317812422465893, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 7840983685341799129, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 4150921070285998824, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -6466944344773461464, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 1393492058474617950, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 7414281716904795550, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 4950153476748097314, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -7449385916485345861, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -3795119470717004479, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -2633310095164459279, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -9127924753195807475, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -2823537133300759493, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 9044614742520371791, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -7370714384401884453, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 294056473036434877, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 583882483136230250, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -620538424544142501, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -2088873560457637655, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 4684636964144538020, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 762803126565005777, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -1566373273361307320, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: 324200769012914977, guid: 0ce7bbeb28ede1443bd5e03d31e841e1, type: 3}
+  - {fileID: -519830328758810729, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -3350584687942332082, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: 7672217856146242768, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: -7618816489997002224, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -3549820784274065123, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: 254261904147138359, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -2423510431283807497, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -836828263213086498, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -2349294287827586349, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -3109596141881436159, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -847915332820175233, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -5188751437542556393, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: -2903797591088414908, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: -6311944322352703865, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 659033130818172438, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 5130220741570407846, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: -1854057202859942471, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: -6824240965027580062, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 5743879759730783654, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: -6418352379221046978, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: -206811673750067148, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: -6509051384682746304, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 4783400380881017517, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 5803378861519924986, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 7857805081572510803, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -6195461370317954068, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -3324625590224342518, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: 1188068733799118591, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: 1874682663996552797, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -1726254109841580963, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: 4396865505611436442, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: 1461068812212814245, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -4696018750214839411, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -222282688633772034, guid: cf30fcc40ae6a074ca4f00a74669f91c, type: 3}
+  - {fileID: 663497193841188628, guid: cf30fcc40ae6a074ca4f00a74669f91c, type: 3}
+  - {fileID: 8054506163500227657, guid: cf30fcc40ae6a074ca4f00a74669f91c, type: 3}
+  - {fileID: -1532066819744058307, guid: cf30fcc40ae6a074ca4f00a74669f91c, type: 3}
+  - {fileID: -4432296927046619111, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 775581194807198296, guid: cf30fcc40ae6a074ca4f00a74669f91c, type: 3}
+  - {fileID: -2042671822420717931, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: 8680079597034193197, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -7580163150123328722, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -754789731979145966, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: 1365734840783097852, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -3009301810152643529, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: -6196045912806183846, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: 3985126243821826018, guid: 77a65d161129c4d4ead9253f35bc99f8, type: 3}
+  - {fileID: 3869275551672029106, guid: cf30fcc40ae6a074ca4f00a74669f91c, type: 3}
+  - {fileID: 5171733691045827027, guid: cf30fcc40ae6a074ca4f00a74669f91c, type: 3}
+  - {fileID: 6799420120851747617, guid: cf30fcc40ae6a074ca4f00a74669f91c, type: 3}
+  - {fileID: 21300000, guid: c035cbb6b785e4542b883c270cfe9621, type: 3}
+  - {fileID: -4878770211440473900, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 2245282681441147782, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -4440961513949160335, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 5540074315574942936, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -6232029726758951642, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -6737928714026633121, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 6505360184126337207, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 946764155078094750, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -7367826900720993131, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -3295399913398183432, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -3747850607483686200, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: 2872937251576857430, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -5047972752132249728, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -7264121138071639374, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 8747162229359660945, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 7448357758638718204, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 4642536515816048721, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -6862578128996015223, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -174672840369426169, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: -4452849869612872337, guid: 6a3bcea87dfa2944092a245dd203c324, type: 3}
+  - {fileID: 107524387375071583, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -1603624629854743860, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -3674161774897162394, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 5790402338485232934, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -4587632162913647368, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -6319815188209135582, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -4400832689964650415, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -3388687155785623867, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 6064528561098804514, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 2975163413604173994, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -8124517668055706138, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -8550027078226389869, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 41231777785974483, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 3199087867965210679, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -4798781450722972313, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -6638882612392981659, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -3618822595648953482, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -5954102015377170804, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -3400294232700154317, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -3372233637070297704, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 4134717049538932527, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 5287996897424454959, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -4306791045386363875, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -8620659998790916414, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -1308574713742369303, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 7644985030422406978, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -7088074138426353768, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -8287161657980608013, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -3744195689923885501, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: -1736277471935106693, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: -6386571648993100668, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: 999278047847548456, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: -6698373205055061214, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 1468071943255328500, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 421218006894887583, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: -5162968986506232202, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 8702939993311057726, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: -2554713854094782001, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: -895752608213390053, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 6742957571659074494, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: -7345860908938067496, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: 8972777479770729399, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: 1153309159664471198, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: -8841132906310825668, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 3738980269915376170, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 1579144327946365958, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -3049053940591966021, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: 4197742757844998316, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: -2419791635950658470, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 5005903999561009938, guid: 01fd5a87e8660a946856fd6926da707a, type: 3}
+  - {fileID: -1454573104279618949, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 2198912739596726821, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -3927855056409761892, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: -3692884269926392672, guid: b44e51e9f81c96946acb97083d037ca9, type: 3}
+  - {fileID: 3660698190432239340, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: -6645716332540479414, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: 3589825435388793828, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: 7443121252020681290, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: 8906946864482041114, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: 2948135995287432035, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: -4657162130490805298, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: -660759987480520571, guid: 2c10c6c8e50aa3246a04a98f20e06e96, type: 3}
+  - {fileID: -4164727047555708960, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 4982508288938645536, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -2872018685490891079, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -1646748791959882494, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 4606173403889372962, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -8650994961550226405, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 7608616655179761294, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -2143371097112282813, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -726445877878642670, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -4646875803996168837, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -7414698081611796832, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 7960934305075345637, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -4459956097973518300, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 5175505467016668201, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 5573163214783662094, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 1125151104240502261, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -795692095009286572, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: 6613612229379734244, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  - {fileID: -385454506478198831, guid: 068d4b8a0f0f9914b99c994edbac0851, type: 3}
+  rewardSound: {fileID: 8300000, guid: 34c88044d81aae1418436e73619b481b, type: 3}
+  stageSound: {fileID: 8300000, guid: 02e92438cd0aa1c4cac1b00b7da1592e, type: 3}
+  tapSound: {fileID: 8300000, guid: f0415dc831df9244a9529163eac96833, type: 3}
+  title: {r: 1, g: 0.71, b: 0.28, a: 1}
+  textLight: {r: 0.95, g: 0.81, b: 0.5, a: 1}
+  textDark: {r: 0.16, g: 0.06, b: 0.03, a: 1}

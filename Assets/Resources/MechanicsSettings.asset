@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c21821e062a4d42b8d56f8a67363869, type: 3}
+  m_Name: MechanicsSettings
+  m_EditorClassIdentifier: Assembly-CSharp::MechanicsSettings
+  wetTint: {r: 0.62, g: 0.72, b: 0.86, a: 1}
+  dryFadeTime: 0.6
+  extinguishedTint: {r: 0.45, g: 0.4, b: 0.38, a: 1}
+  fireTiltPerStrength: 12
+  fireMaxTilt: 55
+  blowOutFlickerHz: 14
+  splashFx: {fileID: 2649903406028356002, guid: b0ac0aaf273292b42901c51cb41837c4, type: 3}
+  steamFx: {fileID: 6685024430252216638, guid: 172af9252ac96bf419ef6afcf4e78dea, type: 3}
+  blowOutSmokeFx: {fileID: 897107164709760652, guid: cc3464a9d661e634a88f2bf12a29b682, type: 3}
+  extinguishHiss: {fileID: 0}
+  blowOutPuff: {fileID: 0}
+  dripDrop: {fileID: 0}
+  sfxVolume: 0.7
+  vibrateOnExtinguish: 1
+  debugGizmos: 1

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e276aaf2b3434326a917f6ce971fb5b9, type: 3}
+  m_Name: LevelSolutions
+  m_EditorClassIdentifier: Assembly-CSharp::LevelSolutions
+  solutions:
+  - level: 5
+    position: {x: -1.8376404, y: 1.8208728}
+    rotationZ: 90
+  - level: 6
+    position: {x: 0.27087235, y: 0.7669255}
+    rotationZ: 0
+  - level: 7
+    position: {x: 2.2208724, y: 0.68764055}
+    rotationZ: 0
+  - level: 8
+    position: {x: -1.7708724, y: -1.9876404}
+    rotationZ: 180
+  - level: 9
+    position: {x: -1.5708723, y: -3.0876403}
+    rotationZ: 180
+  - level: 10
+    position: {x: -0.21235955, y: -3.9708724}
+    rotationZ: 270
+  - level: 11
+    position: {x: -2.5708723, y: -2.1876404}
+    rotationZ: 180
+  - level: 15
+    position: {x: -1.6271565, y: -1.8207649}
+    rotationZ: 179.46991
+  - level: 16
+    position: {x: -0.7321516, y: 1.5229359}
+    rotationZ: 89.82739
+  - level: 17
+    position: {x: 0.8908724, y: -0.39735967}
+    rotationZ: 0
+  - level: 18
+    position: {x: -0.8973596, y: -1.5158722}
+    rotationZ: 270
+  - level: 19
+    position: {x: 0.77235985, y: 2.1408722}
+    rotationZ: 90
+  - level: 20
+    position: {x: 0.77235985, y: 1.2658722}
+    rotationZ: 90
+  - level: 21
+    position: {x: 2.0158725, y: -1.7723596}
+    rotationZ: 0
+  - level: 22
+    position: {x: 0.72764045, y: -2.8908725}
+    rotationZ: 270
+  - level: 23
+    position: {x: 3.0158725, y: -2.2723596}
+    rotationZ: 0
+  - level: 24
+    position: {x: 0.39735985, y: 3.5158725}
+    rotationZ: 90
+  - level: 25
+    position: {x: 1.1473598, y: 0.64087236}
+    rotationZ: 90
+  - level: 26
+    position: {x: 1.6408725, y: -2.0223596}
+    rotationZ: 0
+  - level: 27
+    position: {x: 0.39087248, y: -0.39735967}
+    rotationZ: 0
+  - level: 28
+    position: {x: 2.2658725, y: -2.2723596}
+    rotationZ: 0
+  - level: 29
+    position: {x: 1.0223598, y: 0.64087236}
+    rotationZ: 90
+  - level: 30
+    position: {x: -1.5223596, y: -1.1408722}
+    rotationZ: 270
+  - level: 31
+    position: {x: 1.0223598, y: 0.64087236}
+    rotationZ: 90
