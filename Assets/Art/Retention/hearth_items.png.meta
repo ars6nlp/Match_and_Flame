@@ -1,0 +1,1172 @@
+fileFormatVersion: 2
+guid: b44e51e9f81c96946acb97083d037ca9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2373858092399201228
+    second: hearth_items_0
+  - first:
+      213: 596297746766182498
+    second: hearth_items_1
+  - first:
+      213: -549467769922737554
+    second: hearth_items_2
+  - first:
+      213: 107365255944996407
+    second: hearth_items_3
+  - first:
+      213: 5463573406662575463
+    second: hearth_items_4
+  - first:
+      213: 163110803921562477
+    second: hearth_items_5
+  - first:
+      213: 463589986181552031
+    second: hearth_items_6
+  - first:
+      213: 8874960463308464806
+    second: hearth_items_7
+  - first:
+      213: 3973588695582582482
+    second: hearth_items_8
+  - first:
+      213: 7047187601492371014
+    second: hearth_items_9
+  - first:
+      213: -5719000425885684427
+    second: hearth_items_10
+  - first:
+      213: -3297255793304848734
+    second: hearth_items_11
+  - first:
+      213: 8066129279159636613
+    second: hearth_items_12
+  - first:
+      213: -5863086499136538243
+    second: hearth_items_13
+  - first:
+      213: 4247424105630737875
+    second: hearth_items_14
+  - first:
+      213: -6626178268422152334
+    second: hearth_items_15
+  - first:
+      213: 8608742560094861992
+    second: hearth_items_16
+  - first:
+      213: 2485456070288683400
+    second: hearth_items_17
+  - first:
+      213: 5697724277715796875
+    second: hearth_items_18
+  - first:
+      213: 8847135910680986010
+    second: hearth_items_19
+  - first:
+      213: -7491791192609058437
+    second: hearth_items_20
+  - first:
+      213: 8018891152679880848
+    second: hearth_items_21
+  - first:
+      213: -7470881646495975399
+    second: hearth_items_22
+  - first:
+      213: -730671176915577680
+    second: hearth_items_23
+  - first:
+      213: -5793049910978285820
+    second: hearth_items_24
+  - first:
+      213: 1541167848192917303
+    second: hearth_items_25
+  - first:
+      213: 4841801719482009975
+    second: hearth_items_26
+  - first:
+      213: -1807536758743920892
+    second: hearth_items_27
+  - first:
+      213: 2400379532371910572
+    second: hearth_items_28
+  - first:
+      213: -891658487145248975
+    second: hearth_items_29
+  - first:
+      213: -6128785956518146061
+    second: hearth_items_30
+  - first:
+      213: -3311389439610087963
+    second: hearth_items_31
+  - first:
+      213: -6349332152163182597
+    second: hearth_items_32
+  - first:
+      213: -4587632162913647368
+    second: out_bow
+  - first:
+      213: 4134717049538932527
+    second: out_scarf
+  - first:
+      213: 2975163413604173994
+    second: out_glasses
+  - first:
+      213: -8620659998790916414
+    second: out_tophat
+  - first:
+      213: -8550027078226389869
+    second: out_headphones
+  - first:
+      213: -4400832689964650415
+    second: out_crown
+  - first:
+      213: -8124517668055706138
+    second: out_halo
+  - first:
+      213: -3372233637070297704
+    second: out_santa
+  - first:
+      213: 41231777785974483
+    second: out_heart
+  - first:
+      213: -1308574713742369303
+    second: out_tubeteika
+  - first:
+      213: -8287161657980608013
+    second: out_wreath
+  - first:
+      213: -4306791045386363875
+    second: out_sunglasses
+  - first:
+      213: 6064528561098804514
+    second: out_feather
+  - first:
+      213: 3199087867965210679
+    second: out_leaves
+  - first:
+      213: -3400294232700154317
+    second: out_pumpkin
+  - first:
+      213: -7088074138426353768
+    second: out_wizard
+  - first:
+      213: -3674161774897162394
+    second: out_beanie
+  - first:
+      213: -3618822595648953482
+    second: out_party
+  - first:
+      213: -3388687155785623867
+    second: out_drop
+  - first:
+      213: -5954102015377170804
+    second: out_pinwheel
+  - first:
+      213: -4798781450722972313
+    second: out_monocle
+  - first:
+      213: 5790402338485232934
+    second: out_bolt
+  - first:
+      213: -6319815188209135582
+    second: out_chain
+  - first:
+      213: 5287996897424454959
+    second: out_starclip
+  - first:
+      213: 7644985030422406978
+    second: out_watch
+  - first:
+      213: -6638882612392981659
+    second: out_nightcap
+  - first:
+      213: 1579144327946365958
+    second: s_ember
+  - first:
+      213: -3927855056409761892
+    second: s_shield
+  - first:
+      213: -8841132906310825668
+    second: s_calendar
+  - first:
+      213: -1454573104279618949
+    second: s_scroll
+  - first:
+      213: -2419791635950658470
+    second: s_gift
+  - first:
+      213: 2198912739596726821
+    second: s_secret
+  - first:
+      213: -3692884269926392672
+    second: s_star
+  - first:
+      213: 3738980269915376170
+    second: s_chest
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: out_bow
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f40069aad47550c0800000000000000
+      internalID: -4587632162913647368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_scarf
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fe488ff37716930800000000000000
+      internalID: 4134717049538932527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_glasses
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa88d909c57e94920800000000000000
+      internalID: 2975163413604173994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_tophat
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6e5a2c7634d5880800000000000000
+      internalID: -8620659998790916414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_headphones
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394585e1ca3385980800000000000000
+      internalID: -8550027078226389869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_crown
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150fabe2cf91de2c0800000000000000
+      internalID: -4400832689964650415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_halo
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e59728f93aef3f80800000000000000
+      internalID: -8124517668055706138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_santa
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8952dcabf5b6331d0800000000000000
+      internalID: -3372233637070297704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_heart
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de046c551c729000800000000000000
+      internalID: 41231777785974483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_tubeteika
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edd3512b3207dde0800000000000000
+      internalID: -1308574713742369303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_wreath
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f124db11661efc80800000000000000
+      internalID: -8287161657980608013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_sunglasses
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c99e1dc543b34c0800000000000000
+      internalID: -4306791045386363875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_feather
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d41865898892450800000000000000
+      internalID: 6064528561098804514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_leaves
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73004576771756c20800000000000000
+      internalID: 3199087867965210679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_pumpkin
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e0910396abfc0d0800000000000000
+      internalID: -3400294232700154317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_wizard
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897d675102a12ad90800000000000000
+      internalID: -7088074138426353768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_beanie
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6679fef0551c20dc0800000000000000
+      internalID: -3674161774897162394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_party
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673ef29c50c57cdc0800000000000000
+      internalID: -3618822595648953482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_drop
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c618706cf6f8f0d0800000000000000
+      internalID: -3388687155785623867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_pinwheel
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e910163c7ce5da0800000000000000
+      internalID: -5954102015377170804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_monocle
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d6ce212bd476db0800000000000000
+      internalID: -4798781450722972313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_bolt
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625e00c7f34ab5050800000000000000
+      internalID: 5790402338485232934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_chain
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2201da4f1918b48a0800000000000000
+      internalID: -6319815188209135582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_starclip
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f253a54492db26940800000000000000
+      internalID: 5287996897424454959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_watch
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247a18b5161781a60800000000000000
+      internalID: 7644985030422406978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_nightcap
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b8cc63073fdd3a0800000000000000
+      internalID: -6638882612392981659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s_ember
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ce05c466f3ae510800000000000000
+      internalID: 1579144327946365958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s_shield
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97697903a47d79c0800000000000000
+      internalID: -3927855056409761892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s_calendar
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39835bc67cfd4580800000000000000
+      internalID: -8841132906310825668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s_scroll
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a7393e77150dbe0800000000000000
+      internalID: -1454573104279618949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s_gift
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c13b4e35c2b6ed0800000000000000
+      internalID: -2419791635950658470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s_secret
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5227ebf7c7b148e10800000000000000
+      internalID: 2198912739596726821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s_star
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acd86e725d30ccc0800000000000000
+      internalID: -3692884269926392672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s_chest
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a008adeb683e330800000000000000
+      internalID: 3738980269915376170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hearth_items_0: 2373858092399201228
+      hearth_items_1: 596297746766182498
+      hearth_items_10: -5719000425885684427
+      hearth_items_11: -3297255793304848734
+      hearth_items_12: 8066129279159636613
+      hearth_items_13: -5863086499136538243
+      hearth_items_14: 4247424105630737875
+      hearth_items_15: -6626178268422152334
+      hearth_items_16: 8608742560094861992
+      hearth_items_17: 2485456070288683400
+      hearth_items_18: 5697724277715796875
+      hearth_items_19: 8847135910680986010
+      hearth_items_2: -549467769922737554
+      hearth_items_20: -7491791192609058437
+      hearth_items_21: 8018891152679880848
+      hearth_items_22: -7470881646495975399
+      hearth_items_23: -730671176915577680
+      hearth_items_24: -5793049910978285820
+      hearth_items_25: 1541167848192917303
+      hearth_items_26: 4841801719482009975
+      hearth_items_27: -1807536758743920892
+      hearth_items_28: 2400379532371910572
+      hearth_items_29: -891658487145248975
+      hearth_items_3: 107365255944996407
+      hearth_items_30: -6128785956518146061
+      hearth_items_31: -3311389439610087963
+      hearth_items_32: -6349332152163182597
+      hearth_items_4: 5463573406662575463
+      hearth_items_5: 163110803921562477
+      hearth_items_6: 463589986181552031
+      hearth_items_7: 8874960463308464806
+      hearth_items_8: 3973588695582582482
+      hearth_items_9: 7047187601492371014
+      out_beanie: -3674161774897162394
+      out_bolt: 5790402338485232934
+      out_bow: -4587632162913647368
+      out_chain: -6319815188209135582
+      out_crown: -4400832689964650415
+      out_drop: -3388687155785623867
+      out_feather: 6064528561098804514
+      out_glasses: 2975163413604173994
+      out_halo: -8124517668055706138
+      out_headphones: -8550027078226389869
+      out_heart: 41231777785974483
+      out_leaves: 3199087867965210679
+      out_monocle: -4798781450722972313
+      out_nightcap: -6638882612392981659
+      out_party: -3618822595648953482
+      out_pinwheel: -5954102015377170804
+      out_pumpkin: -3400294232700154317
+      out_santa: -3372233637070297704
+      out_scarf: 4134717049538932527
+      out_starclip: 5287996897424454959
+      out_sunglasses: -4306791045386363875
+      out_tophat: -8620659998790916414
+      out_tubeteika: -1308574713742369303
+      out_watch: 7644985030422406978
+      out_wizard: -7088074138426353768
+      out_wreath: -8287161657980608013
+      s_calendar: -8841132906310825668
+      s_chest: 3738980269915376170
+      s_ember: 1579144327946365958
+      s_gift: -2419791635950658470
+      s_scroll: -1454573104279618949
+      s_secret: 2198912739596726821
+      s_shield: -3927855056409761892
+      s_star: -3692884269926392672
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

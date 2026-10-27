@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 2c10c6c8e50aa3246a04a98f20e06e96
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 411756501352093112
+    second: hearth_room_0
+  - first:
+      213: -201909493626548552
+    second: hearth_room_1
+  - first:
+      213: 9090962912298029854
+    second: hearth_room_2
+  - first:
+      213: -2004728106642750192
+    second: hearth_room_3
+  - first:
+      213: -6261339325951394214
+    second: hearth_room_4
+  - first:
+      213: -1648281552072114297
+    second: hearth_room_5
+  - first:
+      213: 654064187095842672
+    second: hearth_room_6
+  - first:
+      213: -7046587436696735206
+    second: hearth_room_7
+  - first:
+      213: 3040218262718903064
+    second: hearth_room_8
+  - first:
+      213: -2128352978723825428
+    second: hearth_room_9
+  - first:
+      213: -8557684434186447937
+    second: hearth_room_10
+  - first:
+      213: 8972777479770729399
+    second: rm_wall
+  - first:
+      213: -6386571648993100668
+    second: rm_floor
+  - first:
+      213: 1153309159664471198
+    second: rm_window
+  - first:
+      213: 7672217856146242768
+    second: dec_curtains
+  - first:
+      213: 999278047847548456
+    second: rm_light
+  - first:
+      213: 6742957571659074494
+    second: rm_vignette
+  - first:
+      213: 421218006894887583
+    second: rm_pool
+  - first:
+      213: 3589825435388793828
+    second: sea_garland
+  - first:
+      213: -4657162130490805298
+    second: sea_pumpkins
+  - first:
+      213: 7443121252020681290
+    second: sea_hearts
+  - first:
+      213: -6645716332540479414
+    second: sea_flowers
+  - first:
+      213: 8906946864482041114
+    second: sea_leaves
+  - first:
+      213: -660759987480520571
+    second: sea_sun
+  - first:
+      213: 2948135995287432035
+    second: sea_nauryz
+  - first:
+      213: 3660698190432239340
+    second: sea_feather
+  - first:
+      213: 318753429855039446
+    second: rm_bubble
+  - first:
+      213: -1736277471935106693
+    second: rm_brick
+  - first:
+      213: -7345860908938067496
+    second: rm_wainscot
+  - first:
+      213: -3744195689923885501
+    second: rm_beam
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rm_window
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 160
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c410af190610010800000000000000
+      internalID: 1153309159664471198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rm_wall
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbeb5af395b58c70800000000000000
+      internalID: 8972777479770729399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rm_brick
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b717bc5a6d087e7e0800000000000000
+      internalID: -1736277471935106693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rm_wainscot
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 432
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d181516c624e0a90800000000000000
+      internalID: -7345860908938067496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rm_floor
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 448
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c7f293ce65e57a0800000000000000
+      internalID: -6386571648993100668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rm_pool
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 382
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92c7f9ab8778d500800000000000000
+      internalID: 421218006894887583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea_garland
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 366
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3d20ab63f91d130800000000000000
+      internalID: 3589825435388793828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea_pumpkins
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 316
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3b1be87bf6e5fb0800000000000000
+      internalID: -4657162130490805298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea_hearts
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 300
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a7ad6e7574b4760800000000000000
+      internalID: 7443121252020681290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea_flowers
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 250
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48b9e0c43ca5c3a0800000000000000
+      internalID: -6645716332540479414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea_leaves
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 234
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d3bb27bf4db9b70800000000000000
+      internalID: 8906946864482041114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea_sun
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 184
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5889e60da4284d6f0800000000000000
+      internalID: -660759987480520571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea_nauryz
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 168
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b66ac5112e9e820800000000000000
+      internalID: 2948135995287432035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea_feather
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 102
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceef0a6eb996dc230800000000000000
+      internalID: 3660698190432239340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dec_curtains
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 4
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc7103bd71397a60800000000000000
+      internalID: 7672217856146242768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rm_light
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 4
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8268cc117162edd00800000000000000
+      internalID: 999278047847548456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rm_vignette
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 152
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb054a8f2cc39d50800000000000000
+      internalID: 6742957571659074494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rm_beam
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 54
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346c98c8bd1f90cc0800000000000000
+      internalID: -3744195689923885501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dec_curtains: 7672217856146242768
+      hearth_room_0: 411756501352093112
+      hearth_room_1: -201909493626548552
+      hearth_room_10: -8557684434186447937
+      hearth_room_2: 9090962912298029854
+      hearth_room_3: -2004728106642750192
+      hearth_room_4: -6261339325951394214
+      hearth_room_5: -1648281552072114297
+      hearth_room_6: 654064187095842672
+      hearth_room_7: -7046587436696735206
+      hearth_room_8: 3040218262718903064
+      hearth_room_9: -2128352978723825428
+      rm_beam: -3744195689923885501
+      rm_brick: -1736277471935106693
+      rm_bubble: 318753429855039446
+      rm_floor: -6386571648993100668
+      rm_light: 999278047847548456
+      rm_pool: 421218006894887583
+      rm_vignette: 6742957571659074494
+      rm_wainscot: -7345860908938067496
+      rm_wall: 8972777479770729399
+      rm_window: 1153309159664471198
+      sea_feather: 3660698190432239340
+      sea_flowers: -6645716332540479414
+      sea_garland: 3589825435388793828
+      sea_hearts: 7443121252020681290
+      sea_leaves: 8906946864482041114
+      sea_nauryz: 2948135995287432035
+      sea_pumpkins: -4657162130490805298
+      sea_sun: -660759987480520571
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
